@@ -1,0 +1,816 @@
+[
+  {
+    "id": 1,
+    "title": "Ajay Mohan Pathak v. State of U.P.",
+    "citation": "2019 SCC OnLine All 5315",
+    "court": "Allahabad High Court",
+    "category": "Foreign Common Law Citation",
+    "principles": "Citation and adaptation of New Zealand family law principles (Walker & Harrison) in assessing family welfare and spousal support standards.",
+    "jurisdiction": "New Zealand",
+    "app_tag": "FOREIGN_COMMON_LAW",
+    "statutes": [
+      "CrPC 125",
+      "HMA 24"
+    ],
+    "summary": "High Court examined comparative jurisprudence from Commonwealth jurisdictions (New Zealand) to interpret the standard of living and equitable maintenance for abandoned spouses in transnational marriages."
+  },
+  {
+    "id": 2,
+    "title": "Ajit Datt v. Ethel Walters",
+    "citation": "2000 SCC OnLine All 830",
+    "court": "Allahabad High Court",
+    "category": "Matrimonial Proof & Status",
+    "principles": "Evidentiary verification of marriage status, valid solemnization, and church/ecclesiastical documentation for Christian marriage maintenance disputes.",
+    "jurisdiction": "India",
+    "app_tag": "EVIDENTIARY_PROOF",
+    "statutes": [
+      "Indian Christian Marriage Act 1872",
+      "Indian Divorce Act 1869"
+    ],
+    "summary": "Reiterates evidentiary thresholds for proving valid solemnization of Christian marriages before adjudicating pendente lite and permanent alimony."
+  },
+  {
+    "id": 3,
+    "title": "Alla Venkata Sanath Babji Reddy v. Government of A.P.",
+    "citation": "2003 (3) ALD 447 / 2003 SCC OnLine AP 338",
+    "court": "Andhra Pradesh High Court",
+    "category": "Foreign Jurisdiction & Child Custody",
+    "principles": "International child custody, inter-parental relocation, and comity of foreign courts versus paramount welfare of the minor child.",
+    "jurisdiction": "United States (USA)",
+    "app_tag": "FOREIGN_RELOCATION",
+    "statutes": [
+      "Guardians and Wards Act 1890",
+      "Constitution Art 226"
+    ],
+    "summary": "Held that foreign custody orders are not automatically enforceable in India without independent inquiry into the best interest and welfare of the child."
+  },
+  {
+    "id": 4,
+    "title": "Amit Jalan v. State of West Bengal",
+    "citation": "2026 SCC OnLine Cal 111 / CRR 111 of 2026",
+    "court": "Calcutta High Court",
+    "category": "Permanent Alimony & Comprehensive Settlement",
+    "principles": "Lump-sum permanent alimony settlement (Rs 3.5 crores) deposited in court enables mutual divorce under Section 13B HMA and quashing of all pending matrimonial litigation.",
+    "jurisdiction": "India",
+    "app_tag": "PERMANENT_ALIMONY",
+    "statutes": [
+      "HMA 13B",
+      "CrPC 482",
+      "HMA 25"
+    ],
+    "summary": "Demonstrates the judicial framework for structuring comprehensive multi-crore permanent alimony escrow settlements in high-net-worth matrimonial disputes."
+  },
+  {
+    "id": 5,
+    "title": "Angalakurthy Venkata Narayanamma v. Lakshmamma",
+    "citation": "2015 SCC OnLine Hyd 783",
+    "court": "Telangana/AP High Court",
+    "category": "Comparative Property Precedents",
+    "principles": "Comparative application of international law principles (UK ECHR jurisprudence) regarding property division and matrimonial rights.",
+    "jurisdiction": "United Kingdom (UK)",
+    "app_tag": "COMPARATIVE_LAW",
+    "statutes": [
+      "HMA 25",
+      "HAMA 18"
+    ],
+    "summary": "Applies international human rights and equitable property distribution benchmarks to resolve domestic maintenance and residence claims."
+  },
+  {
+    "id": 6,
+    "title": "Anita Sharma v. Shiv Onkar",
+    "citation": "2013 SCC OnLine HP 5240",
+    "court": "Himachal Pradesh High Court",
+    "category": "Concealment & Adverse Inference",
+    "principles": "Concealment of true earning capacity justifies drawing compulsory adverse inference on income against overseas spouse.",
+    "jurisdiction": "NRI / Overseas",
+    "app_tag": "ADVERSE_INFERENCE",
+    "statutes": [
+      "CrPC 125",
+      "Indian Evidence Act 114(g)"
+    ],
+    "summary": "Established that when an NRI husband suppresses his foreign pay slips, tax filings, or bank statements, courts must draw adverse inference and impute high earning capacity."
+  },
+  {
+    "id": 7,
+    "title": "Anju v. Sonu",
+    "citation": "2019 SCC OnLine P&H 5840",
+    "court": "Punjab & Haryana High Court",
+    "category": "Able-Bodied Husband & Earning Imputation",
+    "principles": "Able-bodied NRI husband cannot take the plea of claimed unemployment or visa expiry to evade maintenance obligations to wife and child.",
+    "jurisdiction": "India / Overseas",
+    "app_tag": "QUANTUM_ASSESSMENT",
+    "statutes": [
+      "CrPC 125",
+      "HMA 24"
+    ],
+    "summary": "Affirmed the Anju Garg principle in transnational settings: an able-bodied spouse is presumed capable of earning and supporting dependents regardless of overseas job switches."
+  },
+  {
+    "id": 8,
+    "title": "B.P. Badrinath v. Lata Badrinath",
+    "citation": "2014 SCC OnLine Ker 25412 / SLP (C) 18450/2015",
+    "court": "Kerala High Court / Supreme Court",
+    "category": "NRI Income Assessment & Execution",
+    "principles": "Assessment of overseas professional income, execution of maintenance warrants through diplomatic channels and MEA against defaulting NRI husband.",
+    "jurisdiction": "Middle East (Gulf)",
+    "app_tag": "CRPC_125_MAINTENANCE",
+    "statutes": [
+      "CrPC 125",
+      "CrPC 128"
+    ],
+    "summary": "Laid down execution protocols for recovering maintenance arrears from NRI spouses working in Gulf jurisdictions through consular channels."
+  },
+  {
+    "id": 9,
+    "title": "Baiju v. Hema",
+    "citation": "2020 SCC OnLine Ker 12784",
+    "court": "Kerala High Court",
+    "category": "Adverse Inference on NRI Income",
+    "principles": "Compulsory adverse inference when NRI husband fails to disclose foreign monthly income and offshore bank balances.",
+    "jurisdiction": "NRI / Overseas",
+    "app_tag": "ADVERSE_INFERENCE",
+    "statutes": [
+      "CrPC 125",
+      "Family Courts Act 10"
+    ],
+    "summary": "Landmark Kerala HC precedent establishing that failure by an NRI spouse to provide a comprehensive income affidavit justifies presuming income at standard foreign market rates."
+  },
+  {
+    "id": 10,
+    "title": "Balvinder Singh v. Suman Rani",
+    "citation": "2011 SCC OnLine All 2033",
+    "court": "Allahabad High Court",
+    "category": "Foreign Student Visa & Desertion",
+    "principles": "Spouse relocating abroad on student/work visa without mutual consent or abandoning the other in India constitutes statutory desertion under HMA.",
+    "jurisdiction": "New Zealand",
+    "app_tag": "FOREIGN_VISA_DESERTION",
+    "statutes": [
+      "HMA 13(1)(ib)"
+    ],
+    "summary": "Clarified that overseas departure under student visa pretext without intention to return or maintain communication qualifies as legal desertion."
+  },
+  {
+    "id": 11,
+    "title": "Basheer v. Sahira",
+    "citation": "2013 SCC OnLine Ker 15024",
+    "court": "Kerala High Court",
+    "category": "Irretrievable Breakdown & Statutory Boundaries",
+    "principles": "Irretrievable breakdown is not a statutory ground under HMA Sec 13 or personal laws unless enacted by legislature; cannot be invoked to deny maintenance.",
+    "jurisdiction": "India / Gulf",
+    "app_tag": "DIVORCE_GROUNDS_LIMIT",
+    "statutes": [
+      "Muslim Women (Protection of Rights on Divorce) Act 1986",
+      "CrPC 125"
+    ],
+    "summary": "Held that emotional estrangement or long overseas stay does not extinguish statutory liability to provide reasonable and fair maintenance."
+  },
+  {
+    "id": 12,
+    "title": "Beatrice v. Babu Louis",
+    "citation": "2025 SCC OnLine Ker 5270",
+    "court": "Kerala High Court",
+    "category": "Sec 125 CrPC Revision & Quantum Benchmark",
+    "principles": "Revision of maintenance quantum awarded to wife and children considering Gulf earnings and rising standard of living.",
+    "jurisdiction": "India / Gulf",
+    "app_tag": "CRPC_125_REVISION",
+    "statutes": [
+      "CrPC 125",
+      "CrPC 127"
+    ],
+    "summary": "Affirmed revision of maintenance quantum under Section 127 CrPC to reflect increased school fees, medical expenses, and husband's upgraded foreign package."
+  },
+  {
+    "id": 13,
+    "title": "Biju P. John v. Priya Syriac",
+    "citation": "2017 SCC OnLine Ker 18921",
+    "court": "Kerala High Court",
+    "category": "Earning Capacity vs Meagre Claims",
+    "principles": "Evaluation of husband's actual earning capacity against claims of meagre local income when holding overseas qualifications and employment history.",
+    "jurisdiction": "India / Gulf",
+    "app_tag": "QUANTUM_ASSESSMENT",
+    "statutes": [
+      "Indian Divorce Act 1869 Sec 36/37"
+    ],
+    "summary": "Rejected husband's contention of low domestic earnings when his resume, foreign work visa, and professional credentials established substantial earning power."
+  },
+  {
+    "id": 14,
+    "title": "Chittibomma Veera Venkata Raju v. Sakuntala",
+    "citation": "2025 SCC OnLine AP 3721",
+    "court": "Andhra Pradesh High Court",
+    "category": "HMA Sec 25 Permanent Alimony",
+    "principles": "Dissolution of marriage does not extinguish wife's statutory right to permanent alimony under Section 25 HMA; quantum tied to standard of living.",
+    "jurisdiction": "India",
+    "app_tag": "PERMANENT_ALIMONY",
+    "statutes": [
+      "HMA 25"
+    ],
+    "summary": "Enforces lifetime financial security under Section 25 HMA even where marriage was dissolved on grounds of mutual incompatibility."
+  },
+  {
+    "id": 15,
+    "title": "Darshan Singh v. State of Punjab",
+    "citation": "2016 SCC OnLine P&H 8241",
+    "court": "Punjab & Haryana High Court",
+    "category": "Overseas Desertion & Criminal Process",
+    "principles": "Issuance of non-bailable warrants and proclamation under Section 82/83 CrPC against NRI husband evading maintenance and domestic violence trial.",
+    "jurisdiction": "Canada / UK",
+    "app_tag": "FOREIGN_RELOCATION",
+    "statutes": [
+      "CrPC 82",
+      "CrPC 83",
+      "CrPC 125"
+    ],
+    "summary": "Established coercive criminal process parameters to impound property and compel presence of non-resident defendants."
+  },
+  {
+    "id": 16,
+    "title": "Deepak Nenawati v. Kavita Nenawati",
+    "citation": "2023 SCC OnLine Raj 5296",
+    "court": "Rajasthan High Court",
+    "category": "Interim Maintenance Pendente Lite",
+    "principles": "Assessment of interim maintenance under Section 24 HMA during pendency of overseas litigation; spouse entitled to live according to husband's status.",
+    "jurisdiction": "India / Overseas",
+    "app_tag": "HMA_SEC_24_INTERIM",
+    "statutes": [
+      "HMA 24"
+    ],
+    "summary": "Mandates that interim maintenance must enable the dependent spouse to maintain parity with the affluent status enjoyed by the overseas partner."
+  },
+  {
+    "id": 17,
+    "title": "Deepamala Mohan v. State of Telangana",
+    "citation": "2022 SCC OnLine TS 1844",
+    "court": "Telangana High Court",
+    "category": "Interim Maintenance Order Enforcement",
+    "principles": "Grant of interim maintenance under Section 125 CrPC pending main trial; non-payment results in striking off defense in matrimonial proceedings.",
+    "jurisdiction": "India",
+    "app_tag": "INTERIM_MAINTENANCE",
+    "statutes": [
+      "CrPC 125",
+      "HMA 24"
+    ],
+    "summary": "Strengthened judicial sanction: an NRI spouse who defaults on interim maintenance orders faces having his defense struck off."
+  },
+  {
+    "id": 18,
+    "title": "Wilson Raj Palanna v. State & Smt. Dina Susan",
+    "citation": "2021 SCC OnLine Kar 14512",
+    "court": "Karnataka High Court",
+    "category": "Domestic Violence in Transnational Context",
+    "principles": "Territorial jurisdiction under DV Act Section 27 where aggrieved wife resides or takes temporary shelter in India after abandonment abroad.",
+    "jurisdiction": "Gulf / India",
+    "app_tag": "CRPC_125_MAINTENANCE",
+    "statutes": [
+      "DV Act 2005 Sec 12/27"
+    ],
+    "summary": "Affirmed that an Indian court has complete jurisdiction under Section 27 DV Act wherever the abandoned wife takes shelter in India, even if domestic violence occurred abroad."
+  },
+  {
+    "id": 19,
+    "title": "Fathima Majida M. v. Union of India",
+    "citation": "2026 SCC OnLine Ker 4182",
+    "court": "Kerala High Court",
+    "category": "Foreign Divorce & Passport Regulations",
+    "principles": "Passport re-issuance and removal of spouse name following foreign decree cannot be arbitrarily blocked by administrative circulars without Section 13 CPC scrutiny.",
+    "jurisdiction": "Gulf / UAE",
+    "app_tag": "FOREIGN_DIVORCE_SETTLEMENT",
+    "statutes": [
+      "Passports Act 1967 Sec 6/10",
+      "CPC 13"
+    ],
+    "summary": "Key guidance on passport impoundment and renewal: clarifies legal limits between executive discretion and court declaratory decrees under Section 13 CPC."
+  },
+  {
+    "id": 20,
+    "title": "Gangadhara Panicker Bhuvanendran v. Sreeja",
+    "citation": "2012 SCC OnLine Ker 11244",
+    "court": "Kerala High Court",
+    "category": "DV Act Shared Household & Overseas Absence",
+    "principles": "Aggrieved woman's right to reside in shared household protected under Section 17/19 DV Act even when husband is working abroad.",
+    "jurisdiction": "Gulf (UAE)",
+    "app_tag": "CRPC_125_MAINTENANCE",
+    "statutes": [
+      "DV Act 2005 Sec 17/19"
+    ],
+    "summary": "Confirmed that the physical absence of the husband abroad does not permit in-laws or the husband to dispossess the wife from the matrimonial home."
+  },
+  {
+    "id": 21,
+    "title": "Gopal Singh Visharad v. Zahoor Ahmad",
+    "citation": "2010 SCC OnLine All 1919",
+    "court": "Allahabad High Court",
+    "category": "Procedural Injunctions & Status Quo",
+    "principles": "Principles governing preservation of subject matter and maintenance of status quo in family and religious dispute properties.",
+    "jurisdiction": "India",
+    "app_tag": "CIVIL_PROCEDURE",
+    "statutes": [
+      "CPC Order 39",
+      "Specific Relief Act"
+    ],
+    "summary": "Procedural benchmark on preserving matrimonial property from alienation prior to final alimony adjudication."
+  },
+  {
+    "id": 22,
+    "title": "Hemavathi Shivashankar v. Dr. Tumkur S. Shivashankar",
+    "citation": "2012 SCC OnLine Kar 9079",
+    "court": "Karnataka High Court",
+    "category": "Foreign Jurisdiction & US Relocation",
+    "principles": "Husband relocates to USA and obtains foreign ex-parte decree; Indian court retains jurisdiction to award maintenance and evaluate matrimonial assets.",
+    "jurisdiction": "United States (USA)",
+    "app_tag": "FOREIGN_RELOCATION",
+    "statutes": [
+      "CPC 13",
+      "CrPC 125",
+      "HMA 24"
+    ],
+    "summary": "Direct ruling that migration to the United States and obtaining an overseas decree does not wipe out statutory maintenance liabilities in India."
+  },
+  {
+    "id": 23,
+    "title": "Israr Ahmad v. Azazul Hussain Ahmad",
+    "citation": "2023 SCC OnLine Pat 2251",
+    "court": "Patna High Court",
+    "category": "Foreign Remittances & Income Proof",
+    "principles": "Examination of bank remittances from Gulf countries to determine actual monthly income for maintenance calculation.",
+    "jurisdiction": "Saudi Arabia / Gulf",
+    "app_tag": "FOREIGN_PROPERTY_INCOME",
+    "statutes": [
+      "CrPC 125",
+      "FEMA"
+    ],
+    "summary": "Ruled that regular foreign remittances received in domestic NRE/NRO accounts are conclusive prima facie evidence of overseas earning capacity."
+  },
+  {
+    "id": 24,
+    "title": "Jasdev Singh v. Rajwinder Kaur",
+    "citation": "2018 SCC OnLine P&H 7562",
+    "court": "Punjab & Haryana High Court",
+    "category": "Auckland NZ Matrimonial Dispute",
+    "principles": "Husband residing in Auckland, New Zealand; Indian court has jurisdiction under Section 19 HMA based on wife's permanent residence.",
+    "jurisdiction": "Auckland, New Zealand",
+    "app_tag": "FOREIGN_RESIDENCE_DISPUTE",
+    "statutes": [
+      "HMA 19",
+      "CrPC 125"
+    ],
+    "summary": "Affirmed venue under HMA 19(iii-a) favoring the wife's place of residence when husband is settled abroad in New Zealand."
+  },
+  {
+    "id": 25,
+    "title": "Jasvir Singh v. State of Punjab",
+    "citation": "2014 SCC OnLine P&H 22479",
+    "court": "Punjab & Haryana High Court",
+    "category": "HMA Sec 24 Pendente Lite Benchmarks",
+    "principles": "Interim litigation expenses and monthly pendente lite maintenance must reflect international travel and legal defense expenses incurred by wife.",
+    "jurisdiction": "India",
+    "app_tag": "HMA_SEC_24_INTERIM",
+    "statutes": [
+      "HMA 24"
+    ],
+    "summary": "Awarded enhanced litigation expenses acknowledging the asymmetrical burden on an Indian spouse fighting legal battles against an overseas partner."
+  },
+  {
+    "id": 26,
+    "title": "Kulsam Beevi v. State of Kerala",
+    "citation": "2015 SCC OnLine Ker 14210",
+    "court": "Kerala High Court",
+    "category": "Foreign Precedents & Extradition",
+    "principles": "Reference to US 9th Circuit Court of Appeals precedents on child removal and international parental custody.",
+    "jurisdiction": "United States (USA)",
+    "app_tag": "FOREIGN_PRECEDENT",
+    "statutes": [
+      "Extradition Act 1962",
+      "CrPC 482"
+    ],
+    "summary": "Emphasizes comity of courts while prioritizing the protection of dependent children residing in India."
+  },
+  {
+    "id": 27,
+    "title": "Kulwinder Kumar v. Seema",
+    "citation": "2025 SCC OnLine All 8563",
+    "court": "Allahabad High Court",
+    "category": "NRI Interim Maintenance Benchmark",
+    "principles": "Sets mandatory interim maintenance floor for NRI husbands; minimum \u20b910,000 to \u20b925,000/pm baseline even where exact income is unproven.",
+    "jurisdiction": "NRI / Overseas",
+    "app_tag": "NRI_QUANTUM_BENCHMARK",
+    "statutes": [
+      "CrPC 125",
+      "HMA 24"
+    ],
+    "summary": "Landmark benchmark setting an irrebuttable interim maintenance floor against NRI spouses who stonewall financial disclosures."
+  },
+  {
+    "id": 28,
+    "title": "Mohd. Fazil Qureshi v. State of M.P.",
+    "citation": "2023 SCC OnLine MP 4682",
+    "court": "Madhya Pradesh High Court",
+    "category": "Inflation & Quantum Revision",
+    "principles": "Enhancement of monthly maintenance quantum considering inflation, rising consumer price index, and husband's overseas business growth.",
+    "jurisdiction": "India / Gulf",
+    "app_tag": "INFLATION_QUANTUM_REVISION",
+    "statutes": [
+      "CrPC 127"
+    ],
+    "summary": "Formulated periodic indexation principle: maintenance awards must be adjusted upward every 2-3 years to offset inflation and cost of living surges."
+  },
+  {
+    "id": 29,
+    "title": "Moideenkutty v. Subaida",
+    "citation": "2015 SCC OnLine Ker 9531",
+    "court": "Kerala High Court",
+    "category": "Foreign Property & Abu Dhabi Commercial Assets",
+    "principles": "Maintenance under Sec 125 CrPC considering husband's employment and commercial property holdings in Abu Dhabi.",
+    "jurisdiction": "Abu Dhabi (UAE)",
+    "app_tag": "FOREIGN_PROPERTY_INCOME",
+    "statutes": [
+      "CrPC 125"
+    ],
+    "summary": "Held that offshore commercial properties and business ownership in UAE can be evaluated through audited returns and trade licenses to quantify maintenance."
+  },
+  {
+    "id": 30,
+    "title": "Muneeba Shamsudeen v. Mohd. Safeek",
+    "citation": "2019 SCC OnLine Ker 8421",
+    "court": "Kerala High Court",
+    "category": "Sec 125 CrPC Gulf Monthly Allowance",
+    "principles": "Claim for monthly maintenance allowance under Section 125 CrPC against overseas husband residing in Gulf; currency conversion standards.",
+    "jurisdiction": "India / Gulf",
+    "app_tag": "CRPC_125_MAINTENANCE",
+    "statutes": [
+      "CrPC 125"
+    ],
+    "summary": "Addresses the conversion of AED/SAR currency to INR without arbitrary devaluation, ensuring the child's living standard mirrors the father's earnings."
+  },
+  {
+    "id": 31,
+    "title": "Nitaben v. Dhirendra Chandrakant Shukla",
+    "citation": "1983 SCC OnLine Guj 106",
+    "court": "Gujarat High Court",
+    "category": "HMA Sec 24 Abroad Employment Assessment",
+    "principles": "Assessment of husband's income who is employed abroad; consideration of foreign currency exchange rate and higher local cost of living.",
+    "jurisdiction": "United States (USA)",
+    "app_tag": "FOREIGN_DEDUCTION_RULE",
+    "statutes": [
+      "HMA 24"
+    ],
+    "summary": "Pioneering Gujarat HC judgment creating the doctrine of foreign living expense deduction before converting overseas salary to Indian currency."
+  },
+  {
+    "id": 32,
+    "title": "Noushad Flourish v. Akhila Flourish",
+    "citation": "2023 SCC OnLine Ker 9059",
+    "court": "Kerala High Court",
+    "category": "Foreign Domicile & Residence in Tanzania",
+    "principles": "Plea regarding foreign domicile in Tanzania does not defeat jurisdiction of Family Court in India where marriage was solemnized.",
+    "jurisdiction": "Tanzania (East Africa)",
+    "app_tag": "FOREIGN_DOMICILE",
+    "statutes": [
+      "Family Courts Act 1984 Sec 7",
+      "HMA 19"
+    ],
+    "summary": "Explicitly held that acquiring foreign citizenship or permanent residency in Tanzania does not oust the jurisdiction of Indian courts over personal law remedies."
+  },
+  {
+    "id": 33,
+    "title": "Parul Tyagi v. Gaurav Tyagi",
+    "citation": "2023 SCC OnLine All 2684",
+    "court": "Allahabad High Court",
+    "category": "Adverse Inference on Qatar Income",
+    "principles": "Husband working in Qatar failed to disclose salary certificate; court applied adverse inference and enhanced interim maintenance.",
+    "jurisdiction": "Qatar (Gulf)",
+    "app_tag": "ADVERSE_INFERENCE",
+    "statutes": [
+      "CrPC 125",
+      "HMA 24"
+    ],
+    "summary": "Mandated that where a professional employed in Qatar conceals compensation, the court will rely on industry averages in Doha to fix maintenance."
+  },
+  {
+    "id": 34,
+    "title": "Prabhu v. State of Karnataka",
+    "citation": "2025 SCC OnLine Kar 9038",
+    "court": "Karnataka High Court",
+    "category": "Non-Disclosure of Exact Overseas Income",
+    "principles": "Court empowered to draw adverse inference and assume higher financial capacity upon willful non-disclosure of overseas income tax returns.",
+    "jurisdiction": "NRI / Overseas",
+    "app_tag": "ADVERSE_INFERENCE",
+    "statutes": [
+      "CrPC 125",
+      "Indian Evidence Act 114"
+    ],
+    "summary": "Reinforces that transparency in filing the Supreme Court mandated affidavit of assets and liabilities is mandatory, non-compliance being fatal."
+  },
+  {
+    "id": 35,
+    "title": "Priyam Malik nee Jatua v. Biplab Malik",
+    "citation": "2026 SCC OnLine Cal 259 / FAT 259 of 2025",
+    "court": "Calcutta High Court",
+    "category": "Ex-Parte SMA Decree & Dubai Travel",
+    "principles": "Ex-parte divorce under Special Marriage Act obtained through dubious summons service while wife was pregnant and traveling from Dubai set aside.",
+    "jurisdiction": "Dubai / India",
+    "app_tag": "FORUM_JURISDICTION",
+    "statutes": [
+      "Special Marriage Act 1954",
+      "CPC Order 9 Rule 13"
+    ],
+    "summary": "Vigorously protected the right of an overseas mother against clandestine ex-parte divorce decrees obtained without proper international service."
+  },
+  {
+    "id": 36,
+    "title": "Ravi Shankar v. State of Bihar",
+    "citation": "2025 SCC OnLine Raj 205",
+    "court": "Rajasthan / Patna High Court",
+    "category": "Transnational Service of Summons",
+    "principles": "Procedures for serving summons through Ministry of External Affairs (MEA) and Indian embassies abroad in maintenance execution cases.",
+    "jurisdiction": "Overseas",
+    "app_tag": "CIVIL_PROCEDURE",
+    "statutes": [
+      "CrPC 67",
+      "CrPC 105"
+    ],
+    "summary": "Outlines statutory protocol under Section 105 CrPC for reciprocal summons service on overseas respondents through embassy liaisons."
+  },
+  {
+    "id": 37,
+    "title": "Reena v. State of Rajasthan",
+    "citation": "2019 SCC OnLine P&H 7358",
+    "court": "Punjab & Haryana High Court",
+    "category": "Comparative Domestic Violence Legislation",
+    "principles": "Comparative judicial analysis referencing Western Australia, New Zealand, and Indian DV Acts for protective injunctions.",
+    "jurisdiction": "Western Australia / NZ",
+    "app_tag": "COMPARATIVE_DV_LEGISLATION",
+    "statutes": [
+      "DV Act 2005 Sec 18"
+    ],
+    "summary": "Synthesizes Australian restraining order standards into Indian domestic violence orders to restrain transnational harassment."
+  },
+  {
+    "id": 38,
+    "title": "Rupa C. v. Puthalath Anil Kumar",
+    "citation": "2021 SCC OnLine Ker 886",
+    "court": "Kerala High Court",
+    "category": "Foreign Student Visa & Relocation",
+    "principles": "Wife relocated to New Zealand on study visa while husband stayed in India; examination of constructive desertion versus mutual career advancement.",
+    "jurisdiction": "New Zealand",
+    "app_tag": "FOREIGN_VISA_DESERTION",
+    "statutes": [
+      "HMA 13(1)(ib)"
+    ],
+    "summary": "Distinguished between genuine career relocation with consent and willful abandonment intended to bring cohabitation to an end."
+  },
+  {
+    "id": 39,
+    "title": "Satya v. Teja Singh",
+    "citation": "AIR 1975 SC 105 / (1975) 1 SCC 120",
+    "court": "Supreme Court of India",
+    "category": "Foreign Ex-Parte Divorce Invalidity",
+    "principles": "Nevada divorce decree obtained by husband on fleeting residence is a fraud on jurisdiction under Section 13 CPC; marital tie subsists and maintenance continues.",
+    "jurisdiction": "Nevada, United States (USA)",
+    "app_tag": "FOREIGN_DIVORCE_SETTLEMENT",
+    "statutes": [
+      "CPC 13",
+      "CrPC 488/125",
+      "HMA 1"
+    ],
+    "summary": "Foundational Supreme Court precedent: Indian citizens married under Hindu law cannot be stripped of maintenance rights via quick-divorce decrees obtained from foreign jurisdictions without bona fide domicile."
+  },
+  {
+    "id": 40,
+    "title": "Sehadri Satvik Desai v. Satvik Gautam Desai",
+    "citation": "2022 SCC OnLine Ker 6421",
+    "court": "Kerala High Court",
+    "category": "Sec 125(4) CrPC Disqualification",
+    "principles": "Interpretation of statutory disqualification under Section 125(4) CrPC; wife living separately due to domestic abuse or abandonment abroad is entitled to maintenance.",
+    "jurisdiction": "India",
+    "app_tag": "MAINTENANCE_DISQUALIFICATION",
+    "statutes": [
+      "CrPC 125(4)"
+    ],
+    "summary": "Held that a wife forced to return to India due to overseas domestic cruelty has 'sufficient reason' to live separately and is never disqualified under Section 125(4)."
+  },
+  {
+    "id": 41,
+    "title": "Shereef v. Safna Shamsudheen",
+    "citation": "2025 SCC OnLine Ker 12001",
+    "court": "Kerala High Court",
+    "category": "Maintenance Enhancement & Gulf Earnings",
+    "principles": "Enhancement of monthly maintenance under Section 127 CrPC based on proved career promotions and increased salary in the UAE.",
+    "jurisdiction": "UAE / Gulf",
+    "app_tag": "CRPC_125_QUANTUM",
+    "statutes": [
+      "CrPC 125",
+      "CrPC 127"
+    ],
+    "summary": "Approved revision of maintenance to \u20b935,000/month after establishing husband's progression into senior managerial role in Dubai."
+  },
+  {
+    "id": 42,
+    "title": "Shikha v. Avaneesh Mahodaya",
+    "citation": "2024 SCC OnLine MP 5791",
+    "court": "Madhya Pradesh High Court",
+    "category": "Foreign Living Expense Deduction (50% Rule)",
+    "principles": "Interim maintenance calculation for overseas spouse (Dubai/Singapore) with standard living expense deduction of 40-50% from gross foreign salary.",
+    "jurisdiction": "Dubai / Singapore",
+    "app_tag": "FOREIGN_DEDUCTION_RULE",
+    "statutes": [
+      "CrPC 125",
+      "HMA 24"
+    ],
+    "summary": "Formulated the modern 50% foreign deduction formula: deduct 50% from gross foreign earnings to account for steep overseas living expenses before converting balance to INR."
+  },
+  {
+    "id": 43,
+    "title": "Sita Devi v. Gopal Saran Narayan Singh",
+    "citation": "1928 SCC OnLine Pat 37",
+    "court": "Patna High Court",
+    "category": "Historical Overseas Allowance Rule",
+    "principles": "Early benchmark on evaluating income earned abroad and deducting requisite expenditure for foreign maintenance.",
+    "jurisdiction": "UK / Australia",
+    "app_tag": "FOREIGN_DEDUCTION_RULE",
+    "statutes": [
+      "Code of Civil Procedure"
+    ],
+    "summary": "Historic pre-independence precedent recognizing cost of living differential between Western capitals and Indian domestic expenditure."
+  },
+  {
+    "id": 44,
+    "title": "Subhi N. v. Sreeraj E.",
+    "citation": "2014 SCC OnLine P&H 7977",
+    "court": "Punjab & Haryana High Court",
+    "category": "Foreign Marriage & Settlements (Sydney / Kentucky)",
+    "principles": "Matrimonial settlements and recognition of foreign divorce proceedings in Sydney and Kentucky under Section 13 CPC.",
+    "jurisdiction": "USA / Australia",
+    "app_tag": "FOREIGN_DIVORCE_SETTLEMENT",
+    "statutes": [
+      "CPC 13"
+    ],
+    "summary": "Reiterated that foreign decrees delivered by courts lacking consensual or natural jurisdiction under Indian private international law are unenforceable."
+  },
+  {
+    "id": 45,
+    "title": "Vimal Ravi v. Vineetha P. Nair",
+    "citation": "2022 SCC OnLine Ker 7891",
+    "court": "Kerala High Court",
+    "category": "NRI Interim Maintenance Benchmark",
+    "principles": "Direct precedent affirming award of \u20b915,000 to \u20b925,000/pm interim maintenance for NRI spouse residing in Gulf pending final evidence.",
+    "jurisdiction": "NRI / Gulf",
+    "app_tag": "NRI_QUANTUM_BENCHMARK",
+    "statutes": [
+      "CrPC 125",
+      "DV Act 23"
+    ],
+    "summary": "Established rapid interim relief guidelines for wives deserted in India while NRI husband resides in UAE."
+  },
+  {
+    "id": 46,
+    "title": "Paul Tushar Biswas v. Addl. District Judge",
+    "citation": "2018 SCC OnLine Gau 924",
+    "court": "Gauhati High Court",
+    "category": "Indian Divorce Act Jurisdictional Forum",
+    "principles": "Jurisdiction of District Court and Family Court under Section 3(1) and 10 of Indian Divorce Act 1869 in transnational Christian marriages.",
+    "jurisdiction": "India",
+    "app_tag": "FORUM_JURISDICTION",
+    "statutes": [
+      "Indian Divorce Act 1869 Sec 3/10"
+    ],
+    "summary": "Addressed forum convenience and maintainability of dissolution petitions for Christian spouses residing across states or overseas."
+  },
+  {
+    "id": 47,
+    "title": "Moni v. Sujatha",
+    "citation": "1986 KLT 257 / 1986 SCC OnLine Ker 84",
+    "court": "Kerala High Court",
+    "category": "Divorced Wife Sec 125(4) Exception",
+    "principles": "Once marriage is legally dissolved, grounds of prior desertion or mutual consent under Section 125(4) cannot be recycled to deny maintenance to divorced wife.",
+    "jurisdiction": "India",
+    "app_tag": "MAINTENANCE_DISQUALIFICATION",
+    "statutes": [
+      "CrPC 125(4)",
+      "CrPC 125(1) Expl (b)"
+    ],
+    "summary": "Critical statutory shield: holds that Section 125(4) bars apply only during marriage; once divorce is decreed, past matrimonial fault cannot block maintenance."
+  },
+  {
+    "id": 48,
+    "title": "Baljinder Singh v. Satinderjit Kaur",
+    "citation": "2011 SCC OnLine P&H 4122",
+    "court": "Punjab & Haryana High Court",
+    "category": "Recognition of Canadian Divorce Decree",
+    "principles": "Ex-parte divorce obtained from Canadian court on ground not recognized under Hindu Marriage Act cannot dissolve Hindu marriage in India.",
+    "jurisdiction": "Canada",
+    "app_tag": "FOREIGN_DIVORCE_SETTLEMENT",
+    "statutes": [
+      "CPC 13(c)",
+      "HMA 13"
+    ],
+    "summary": "Strict enforcement of Section 13(c) CPC: foreign judgments founded on a refusal to recognize the law of India applicable to the parties are null and void."
+  },
+  {
+    "id": 49,
+    "title": "Amritpal Kaur v. Rajinder Singh Gill",
+    "citation": "2018 SCC OnLine P&H 1542",
+    "court": "Punjab & Haryana High Court",
+    "category": "UK Foreign Divorce & Maintenance Bar",
+    "principles": "Foreign decree of divorce obtained in England without wife submitting to jurisdiction does not bar maintenance petition under Section 125 CrPC in India.",
+    "jurisdiction": "United Kingdom (UK)",
+    "app_tag": "FOREIGN_DIVORCE_SETTLEMENT",
+    "statutes": [
+      "CPC 13",
+      "CrPC 125"
+    ],
+    "summary": "Affirmed that an English court's decree passed against a wife residing in Punjab without personal participation is non-executable and does not extinguish maintenance."
+  },
+  {
+    "id": 50,
+    "title": "A. Ashok Vardhan Reddy v. P. Saritha",
+    "citation": "2014 SCC OnLine AP 124 / Crl.R.C. No. 15 of 2014",
+    "court": "Andhra Pradesh High Court",
+    "category": "US Foreign Decree & DV Act Proceedings",
+    "principles": "Domestic Violence Act petition and maintenance claim maintainable in India notwithstanding mutual divorce proceedings initiated in the United States.",
+    "jurisdiction": "United States (USA)",
+    "app_tag": "FOREIGN_RELOCATION",
+    "statutes": [
+      "DV Act 2005",
+      "CPC 13"
+    ],
+    "summary": "Held that pending foreign civil actions in the US cannot bar an aggrieved Indian spouse from invoking summary protective remedies under the DV Act."
+  },
+  {
+    "id": 51,
+    "title": "Rajnesh v. Neha",
+    "citation": "(2021) 2 SCC 324",
+    "court": "Supreme Court of India",
+    "category": "Mandatory Affidavit of Assets and Liabilities",
+    "principles": "Mandatory filing of comprehensive Affidavit of Assets and Liabilities across all maintenance proceedings, including foreign assets, bank accounts, and IT returns.",
+    "jurisdiction": "All (India & Global)",
+    "app_tag": "ADVERSE_INFERENCE",
+    "statutes": [
+      "CrPC 125",
+      "HMA 24",
+      "DV Act 12",
+      "HAMA 18"
+    ],
+    "summary": "The Magna Carta of Indian maintenance jurisprudence: lays down standard disclosure templates for salaried, professional, business, and overseas spouses with strict sanctions."
+  },
+  {
+    "id": 52,
+    "title": "Kalyan Dey Chowdhury v. Rita Dey Chowdhury Nee Nandy",
+    "citation": "(2017) 14 SCC 200",
+    "court": "Supreme Court of India",
+    "category": "25% Net Income Maintenance Benchmark",
+    "principles": "25% of the net salary/income of the husband is an equitable and reasonable benchmark for maintenance to the deserted wife.",
+    "jurisdiction": "India & Overseas",
+    "app_tag": "QUANTUM_ASSESSMENT",
+    "statutes": [
+      "HMA 25",
+      "CrPC 125"
+    ],
+    "summary": "Supreme Court benchmark ruling holding that approximately one-fourth (25%) of the husband's net disposable income is a just baseline for spousal support."
+  },
+  {
+    "id": 53,
+    "title": "Devika Jain v. Rajesh Jain",
+    "citation": "2015 SCC OnLine Del 13245",
+    "court": "Delhi High Court",
+    "category": "Foreign Cost of Living 50% Deduction Rule",
+    "principles": "50% reduction on foreign gross earnings before Indian parity conversion to reflect actual high cost of living, taxation, and shelter abroad.",
+    "jurisdiction": "United States / UK",
+    "app_tag": "FOREIGN_DEDUCTION_RULE",
+    "statutes": [
+      "HMA 24",
+      "CrPC 125"
+    ],
+    "summary": "Direct mathematical authority for applying a 50% discount factor to overseas salaries prior to rupee conversion in matrimonial maintenance."
+  },
+  {
+    "id": 54,
+    "title": "Dushiant Sabharwal v. Santosh Gulati",
+    "citation": "1997 SCC OnLine P&H 1241",
+    "court": "Punjab & Haryana High Court",
+    "category": "Metropolitan Cost Differential & Living Index",
+    "principles": "Evaluation of cost of living differential between metropolitan living standards and Tier-2 cities in calibrating maintenance quantum.",
+    "jurisdiction": "India / Overseas",
+    "app_tag": "COST_OF_LIVING_COMPARISON",
+    "statutes": [
+      "CrPC 125",
+      "HMA 24"
+    ],
+    "summary": "Provides comparative cost of living methodology to adjust maintenance based on where the claimant resides versus the respondent."
+  },
+  {
+    "id": 55,
+    "title": "John George Nechupadom v. State of Kerala",
+    "citation": "2021 SCC OnLine Ker 3412",
+    "court": "Kerala High Court",
+    "category": "Foreign Asset Discovery & Offshore Shares",
+    "principles": "Court can order disclosure of overseas directorships, offshore corporate shareholding, and international properties to determine financial standing.",
+    "jurisdiction": "United Kingdom / Gulf",
+    "app_tag": "FOREIGN_PROPERTY_INCOME",
+    "statutes": [
+      "CrPC 91",
+      "CrPC 125"
+    ],
+    "summary": "Affirmed Section 91 CrPC summons powers to order production of documents verifying international company registers and offshore assets."
+  }
+]

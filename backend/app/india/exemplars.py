@@ -103,3 +103,27 @@ add("_none", None,
     "नमस्ते, मुझे मदद चाहिए", "मुझे नहीं पता क्या करूँ", "हमारे दो बच्चे हैं", "हम दिल्ली में रहते हैं", "धन्यवाद",
     "வணக்கம், எனக்கு உதவி வேண்டும்", "எங்களுக்கு இரண்டு குழந்தைகள்", "நான் சென்னையில் வசிக்கிறேன்", "நன்றி",
     "namaste mujhe madad chahiye", "mujhe samajh nahi aa raha kya karun", "enakku udhavi venum")
+
+# NRI matrimonial & maintenance exemplars for SLM extraction
+add("respondent_abroad", True,
+    "my husband lives in the US", "he is in America", "he moved to Canada after marriage",
+    "he works in Dubai", "he is an NRI settled abroad", "husband lives in UK", "working in London",
+    "husband lives in Australia", "he is in Qatar", "he is in Singapore",
+    "पति अमेरिका में रहते हैं", "वह विदेश में रहता है", "पति दुबई में नौकरी करते हैं",
+    "கணவர் துபாயில் வேலை செய்கிறார்", "அவர் வெளிநாட்டில் வசிக்கிறார்", "அமெரிக்காவில் வசிக்கிறார்",
+    "pati videsh mein rehte hain", "nri husband in dubai", "husband settled in usa")
+
+add("undisclosed_income", True,
+    "he refuses to disclose his foreign income", "he conceals his foreign salary",
+    "he won't give his pay slips", "he is hiding his foreign bank accounts",
+    "he filed a false affidavit claiming zero income",
+    "पति अपनी विदेश की सैलरी छुपाते हैं", "सैलरी स्लिप नहीं दे रहे हैं",
+    "அவர் வெளிநாட்டு வருமானத்தை மறைக்கிறார்", "சம்பள சீட்டு தர மறுக்கிறார்",
+    "salary chupa raha hai", "income disclose nahi kar raha")
+
+add("foreign_decree_obtained", True,
+    "he got an ex parte divorce from a foreign court", "he sent me divorce papers from Texas",
+    "he took divorce in Canada without telling me", "he got a Nevada divorce decree",
+    "पति ने विदेश की अदालत से एकतरफा तलाक ले लिया",
+    "அவர் வெளிநாட்டு நீதிமன்றத்தில் என்னிடம் கூறாமல் விவாகரத்து பெற்றுள்ளார்",
+    "videsh se talaq ka paper bhej diya", "foreign court se talaq le liya")

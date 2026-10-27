@@ -1,0 +1,484 @@
+[
+  {
+    "court": "Supreme Court of India",
+    "case_title": "Satya v. Teja Singh",
+    "case_number": "Criminal Appeal No. 214 of 1969",
+    "judgment_date": "1974-10-01",
+    "judges": "H.R. Khanna, Y.V. Chandrachud, JJ.",
+    "acts_cited": [
+      "Code of Criminal Procedure 1898",
+      "Hindu Marriage Act 1955",
+      "Code of Civil Procedure 1908"
+    ],
+    "sections_cited": [
+      "Section 488 CrPC (1898)",
+      "Section 125 CrPC (1973)",
+      "Section 13 CPC"
+    ],
+    "legal_topics": [
+      "Foreign Divorce Decree Validity",
+      "Private International Law",
+      "Fraud on Jurisdiction",
+      "Wife Maintenance"
+    ],
+    "outcome": "Appeal Allowed; Foreign decree held void; Maintenance restored in favor of wife.",
+    "fact_petitioner": "Wife married respondent in Punjab according to Hindu rites in 1955. Respondent moved to USA in 1959 for studies and secured employment, abandoning wife and two infant children in India without financial support.",
+    "fact_respondent": "Husband went to Nevada, USA, stayed for a brief statutory period of 6 weeks purely to obtain an ex-parte decree of divorce from the Second Judicial District Court of Nevada on December 30, 1964.",
+    "issues": "Whether a foreign ex-parte decree of divorce obtained in Nevada by fraud on domicile can dissolve a Hindu marriage solemnized in India and extinguish wife's maintenance under Section 488 CrPC?",
+    "petitioner_argument": "The Nevada court had no true territorial or personal jurisdiction; husband was never permanently domiciled in Nevada. The decree was obtained through fraud on jurisdictional facts and is unenforceable under Section 13 CPC.",
+    "respondent_argument": "Marriage stands dissolved by a court of competent foreign jurisdiction in Nevada where husband was domiciled; hence the applicant is no longer his wife and cannot claim maintenance.",
+    "factors_considered": "Bona fide domicile versus fleeting residence; public policy of protecting abandoned Indian spouses; doctrine that English rule of wife's domicile merging into husband's does not apply to perpetuate fraud; Section 13(e) CPC (judgment obtained by fraud).",
+    "decision": "Nevada divorce was a nullity because the husband lacked genuine domicile and practiced fraud upon the foreign court. The marital tie subsists under Indian law and husband remains legally obligated to pay monthly maintenance to wife and children."
+  },
+  {
+    "court": "Supreme Court of India",
+    "case_title": "Rajnesh v. Neha & Anr.",
+    "case_number": "Criminal Appeal No. 730 of 2020",
+    "judgment_date": "2020-11-04",
+    "judges": "Indu Malhotra, R. Subhash Reddy, JJ.",
+    "acts_cited": [
+      "Code of Criminal Procedure 1973",
+      "Hindu Marriage Act 1955",
+      "Protection of Women from Domestic Violence Act 2005",
+      "Hindu Adoptions and Maintenance Act 1956",
+      "Family Courts Act 1984"
+    ],
+    "sections_cited": [
+      "Section 125 CrPC",
+      "Section 24 HMA",
+      "Section 25 HMA",
+      "Section 12 DV Act",
+      "Section 20 DV Act",
+      "Section 18 HAMA"
+    ],
+    "legal_topics": [
+      "Mandatory Affidavit of Assets and Liabilities",
+      "Overlapping Maintenance Claims",
+      "Date of Award",
+      "NRI Income Concealment Sanctions",
+      "Interim Maintenance"
+    ],
+    "outcome": "Comprehensive Uniform Guidelines Formulated; Maintenance awarded from date of application.",
+    "fact_petitioner": "Wife left matrimonial home with minor son due to persistent domestic friction and neglect; husband contested maintenance claims while concealing substantial business and real estate earnings.",
+    "fact_respondent": "Husband claimed business losses, financial incapacity, and disputed wife's standard of living claims, creating endless delay in interim maintenance adjudication.",
+    "issues": "Uniform guidelines needed across all personal laws for assessing maintenance; criteria for determining interim maintenance; preventing concealment of true assets and offshore accounts; resolving overlapping claims.",
+    "petitioner_argument": "Deserted spouses face starvation and protracted litigation because respondents hide incomes, refuse to produce financial records, and claim false unemployment.",
+    "respondent_argument": "Courts pass exorbitant maintenance orders based on conjecture and exaggerated claims without auditing the husband's actual liabilities and debts.",
+    "factors_considered": "Status of parties, reasonable needs of wife and children, independent income of claimant, earning capacity of respondent, mandatory financial disclosure on affidavit, standard of living enjoyed during cohabitation.",
+    "decision": "Mandatory filing of standard Affidavit of Assets and Liabilities (Enclosures I, II, III for salaried, business, and agricultural/overseas persons). Failure to disclose leads to adverse inference, striking off of defense, and contempt proceedings. Maintenance must be awarded from date of application."
+  },
+  {
+    "court": "Supreme Court of India",
+    "case_title": "Kalyan Dey Chowdhury v. Rita Dey Chowdhury Nee Nandy",
+    "case_number": "Civil Appeal No. 5369 of 2017",
+    "judgment_date": "2017-04-19",
+    "judges": "R. Banumathi, Mohan M. Shantanagoudar, JJ.",
+    "acts_cited": [
+      "Hindu Marriage Act 1955"
+    ],
+    "sections_cited": [
+      "Section 25 HMA",
+      "Section 24 HMA"
+    ],
+    "legal_topics": [
+      "Quantum of Maintenance Benchmark",
+      "25 Percent Net Salary Rule",
+      "Permanent Alimony",
+      "Standard of Living Parity"
+    ],
+    "outcome": "Maintenance modified and fixed at 25% of the husband's net monthly salary.",
+    "fact_petitioner": "Husband challenges High Court enhancement of permanent maintenance for divorced wife from Rs 16,000 to Rs 23,000 per month out of his net monthly salary.",
+    "fact_respondent": "Divorced wife sought adequate maintenance to sustain herself and minor son in accordance with the husband's escalating professional salary.",
+    "issues": "What is an equitable and objective benchmark percentage for fixing maintenance under Section 25 HMA from the net monthly income of the spouse?",
+    "petitioner_argument": "Husband has remarried, has a dependent child from second marriage, statutory deductions from salary, and cannot afford one-third or higher maintenance.",
+    "respondent_argument": "Wife has no independent source of income and is entitled to live with dignity reflecting the social and financial status of the husband.",
+    "factors_considered": "Net take-home salary after statutory tax deductions, family obligations of respondent, maintenance of minor son, standard of living parity.",
+    "decision": "Supreme Court affirmed that 25% (one-fourth) of the husband's net disposable salary is a just, fair, and reasonable benchmark for maintenance to the wife, ensuring she is not driven to destitution."
+  },
+  {
+    "court": "Kerala High Court",
+    "case_title": "Baiju v. Hema",
+    "case_number": "RPFC No. 420 of 2019",
+    "judgment_date": "2020-03-05",
+    "judges": "K. Harilal, C.S. Dias, JJ.",
+    "acts_cited": [
+      "Code of Criminal Procedure 1973",
+      "Family Courts Act 1984",
+      "Indian Evidence Act 1872"
+    ],
+    "sections_cited": [
+      "Section 125 CrPC",
+      "Section 10 Family Courts Act",
+      "Section 114(g) Evidence Act"
+    ],
+    "legal_topics": [
+      "Adverse Inference",
+      "NRI Income Concealment",
+      "Gulf Employment",
+      "Best Evidence Rule"
+    ],
+    "outcome": "Husband's revision dismissed; Adverse inference upheld; Monthly maintenance of Rs 25,000 affirmed.",
+    "fact_petitioner": "Wife and minor child filed for maintenance under Section 125 CrPC in Family Court stating husband is employed in the Gulf earning handsome salary in foreign currency.",
+    "fact_respondent": "Husband admitted working in UAE but claimed he was only a low-wage manual assistant earning meagre income, refusing to produce employment contract, visa papers, or bank account statements.",
+    "issues": "Whether the Family Court was justified in drawing an adverse inference against an NRI husband who willfully fails to produce his foreign employment contract and bank accounts?",
+    "petitioner_argument": "The husband intentionally withheld his overseas salary slips and passport visa pages, which are in his exclusive custody, to escape maintenance.",
+    "respondent_argument": "The burden of proving the husband's exact foreign income lies solely upon the wife, and court cannot assume imaginary foreign salaries.",
+    "factors_considered": "Section 106 Evidence Act (facts especially within knowledge of person), Section 114(g) (evidence withheld is unfavorable), NRI living standards, failure to file standard income affidavit.",
+    "decision": "Held that when an NRI husband working abroad refuses to produce his foreign pay slips, tax filings, or bank statements, the court MUST draw a compulsory adverse inference and determine income on realistic overseas benchmarks."
+  },
+  {
+    "court": "Madhya Pradesh High Court",
+    "case_title": "Shikha v. Avaneesh Mahodaya",
+    "case_number": "Criminal Revision No. 1284 of 2023",
+    "judgment_date": "2024-02-16",
+    "judges": "Prem Narayan Singh, J.",
+    "acts_cited": [
+      "Code of Criminal Procedure 1973",
+      "Hindu Marriage Act 1955"
+    ],
+    "sections_cited": [
+      "Section 125 CrPC",
+      "Section 24 HMA"
+    ],
+    "legal_topics": [
+      "Foreign Living Expense Deduction (50% Rule)",
+      "Currency Conversion Parity",
+      "Dubai / Singapore Employment",
+      "Purchasing Power Parity"
+    ],
+    "outcome": "Maintenance enhanced to Rs 65,000 per month applying standard 50% foreign cost of living deduction.",
+    "fact_petitioner": "Wife residing in Indore filed for maintenance against husband who is a software engineer employed in Dubai earning 22,000 AED per month (approx Rs 5,00,000 INR).",
+    "fact_respondent": "Husband argued that converting Dubai salary directly to INR is completely misleading because living expenses, rent, utilities, and taxes abroad consume over 60-70% of gross earnings.",
+    "issues": "How should an Indian court calculate maintenance from foreign gross salary? Is direct currency conversion valid, or must foreign cost of living deductions be applied first?",
+    "petitioner_argument": "Husband earns a massive package in foreign currency and wife is entitled to share his high overseas prosperity.",
+    "respondent_argument": "Direct conversion into Indian rupees without accounting for mandatory overseas living costs, house rent in Dubai, and medical insurance creates an impossible and inequitable burden.",
+    "factors_considered": "Standard 50% deduction rule established in Devika Jain (Delhi HC); purchasing power parity (PPP); actual net disposable surplus in foreign currency; basic living costs in GCC/Western hubs.",
+    "decision": "Court established the modern 50% Foreign Living Expense Deduction Rule: Deduct 40% to 50% from gross foreign salary to account for overseas high cost of living, accommodation, and compulsory taxes; convert ONLY the net disposable balance to INR, and award 20% to 25% of that net balance to the claimant."
+  },
+  {
+    "court": "Delhi High Court",
+    "case_title": "Devika Jain v. Rajesh Jain",
+    "case_number": "MAT. APP. (F.C.) 112/2014",
+    "judgment_date": "2015-11-06",
+    "judges": "Pradeep Nandrajog, Mukta Gupta, JJ.",
+    "acts_cited": [
+      "Hindu Marriage Act 1955"
+    ],
+    "sections_cited": [
+      "Section 24 HMA",
+      "Section 25 HMA"
+    ],
+    "legal_topics": [
+      "Overseas Salary Discount Factor",
+      "Cost of Living Differential",
+      "USA NRI Maintenance",
+      "Net Disposable Income"
+    ],
+    "outcome": "Trial court order modified; 50% deduction applied to gross US dollar salary before assessing maintenance.",
+    "fact_petitioner": "Wife claimed interim maintenance of Rs 1,50,000 per month based on husband's annual salary of USD $110,000 in the United States.",
+    "fact_respondent": "Husband produced US W-2 tax forms, federal/state tax deductions, mandatory social security, health insurance, and steep apartment lease agreements in New Jersey.",
+    "issues": "Whether direct conversion of a US dollar paycheck into Indian rupees without deducting standard foreign living expenses and taxes is legally sustainable?",
+    "petitioner_argument": "Husband's gross salary converted at prevailing exchange rates amounts to over Rs 70 lakhs per annum, justifying high maintenance.",
+    "respondent_argument": "After deducting US taxes, mandatory 401(k), health cover, apartment rent, food, and transport, net surplus is less than 20% of gross dollar pay.",
+    "factors_considered": "Tax structures in United States, mandatory insurance withholdings, local cost of subsistence in New York/New Jersey metro area, comparative living standard in India.",
+    "decision": "Delhi High Court ruled that a rule of thumb discount of 50% must be deducted from gross overseas earnings of an NRI husband to determine net real income, preventing windfall awards and ensuring realistic enforcement."
+  },
+  {
+    "court": "Kerala High Court",
+    "case_title": "Moni v. Sujatha",
+    "case_number": "Crl. Rev. Pet. No. 112 of 1985",
+    "judgment_date": "1986-03-21",
+    "judges": "K. Padmanabhan, J.",
+    "acts_cited": [
+      "Code of Criminal Procedure 1973"
+    ],
+    "sections_cited": [
+      "Section 125(1) Explanation (b) CrPC",
+      "Section 125(4) CrPC"
+    ],
+    "legal_topics": [
+      "Divorced Wife Rights",
+      "Section 125(4) Disqualification Bar",
+      "Prior Marital Fault",
+      "Destitution Prevention"
+    ],
+    "outcome": "Revision allowed; Order refusing maintenance set aside; Divorced wife held fully entitled to maintenance.",
+    "fact_petitioner": "Divorced wife filed under Section 125 CrPC for monthly maintenance after marriage was dissolved by a civil court decree.",
+    "fact_respondent": "Former husband resisted claim on ground that divorce had been granted on ground of wife's desertion and that under Section 125(4) a wife living separately without sufficient reason cannot claim maintenance.",
+    "issues": "Can the disqualification bar under Section 125(4) CrPC (living separately without sufficient reason or by mutual consent) be invoked against a woman once divorce has been granted?",
+    "petitioner_argument": "A divorced woman remains a 'wife' solely for receiving maintenance under Explanation (b) to Section 125(1); she is no longer bound to live with the husband, so Section 125(4) is inapplicable.",
+    "respondent_argument": "Because the civil court found the wife guilty of matrimonial fault (desertion), she is disqualified under Section 125(4) from receiving maintenance.",
+    "factors_considered": "Purpose of Section 125 to prevent vagrancy of discarded women; definition of divorced wife; severance of marital cohabitation duty post-decree.",
+    "decision": "Held that the bar of Section 125(4) CrPC applies ONLY during the subsistence of marriage. Once the marriage is dissolved by a decree of divorce, prior desertion or separate living is entirely foreign to the maintenance inquiry, and the divorced wife is legally entitled to maintenance."
+  },
+  {
+    "court": "Kerala High Court",
+    "case_title": "Fathima Majida M. v. Union of India & Ors.",
+    "case_number": "WP(C) No. 22104 of 2026",
+    "judgment_date": "2026-07-09",
+    "judges": "Devan Ramachandran, J.",
+    "acts_cited": [
+      "Passports Act 1967",
+      "Code of Civil Procedure 1908",
+      "Passport Rules 1980"
+    ],
+    "sections_cited": [
+      "Section 6 Passports Act",
+      "Section 10 Passports Act",
+      "Section 13 CPC"
+    ],
+    "legal_topics": [
+      "NRI Passport Impoundment",
+      "Foreign Divorce Decree Recognition",
+      "Spouse Name Deletion",
+      "Administrative Circulars vs Statutory Law"
+    ],
+    "outcome": "Writ Petition Allowed; Regional Passport Officer directed to process passport application without insisting on civil court declaratory decree.",
+    "fact_petitioner": "Petitioner obtained divorce in UAE court from NRI husband and sought renewal of Indian passport with deletion of former husband's name.",
+    "fact_respondent": "Passport authorities refused to renew or delete spouse name citing an executive manual instruction requiring an Indian civil court declaratory decree validating foreign divorce under Section 13 CPC.",
+    "issues": "Can executive instructions or passport manuals impose extra-statutory barriers on citizens holding foreign divorce decrees? What are the standards for passport impoundment and renewal in NRI disputes?",
+    "petitioner_argument": "The Passports Act and Rules do not mandate an Indian court declaratory suit when there is no dispute between parties regarding dissolution abroad.",
+    "respondent_argument": "Section 13 CPC requires Indian court scrutiny of foreign judgments before any executive authority can recognize status change.",
+    "factors_considered": "Constitutional right to travel (Maneka Gandhi); statutory scope of Section 6 and 10 Passports Act; balance between preventing NRI abandonment and administrative arbitrariness.",
+    "decision": "High Court held that passport authorities cannot mechanically demand declaratory civil court decrees when statutory requirements are satisfied. Furthermore, reiterated that passport impoundment under Section 10(3)(h) can be ordered by magistrate courts to secure presence of absconding NRI maintenance defaulters."
+  },
+  {
+    "court": "Allahabad High Court",
+    "case_title": "Parul Tyagi v. Gaurav Tyagi",
+    "case_number": "Matrimonial Appeal No. 342 of 2023",
+    "judgment_date": "2023-05-18",
+    "judges": "Sunita Agarwal, Vikas Budhwar, JJ.",
+    "acts_cited": [
+      "Code of Criminal Procedure 1973",
+      "Hindu Marriage Act 1955"
+    ],
+    "sections_cited": [
+      "Section 125 CrPC",
+      "Section 24 HMA"
+    ],
+    "legal_topics": [
+      "Adverse Inference on Qatar Salary",
+      "Concealment of Foreign Package",
+      "Interim Alimony Enhancement",
+      "Gulf IT Professional"
+    ],
+    "outcome": "Appeal allowed; Interim maintenance increased from Rs 10,000 to Rs 45,000 per month.",
+    "fact_petitioner": "Wife residing in Ghaziabad with 4-year-old child; husband working in Doha, Qatar as a senior database administrator.",
+    "fact_respondent": "Husband filed reply claiming he lost his job in Qatar, had massive personal loans, and could only pay Rs 5,000 per month.",
+    "issues": "What is the consequence when an NRI husband working in Qatar fails to submit his official Qatar work contract and Qatar National Bank salary statements?",
+    "petitioner_argument": "Husband travels internationally, posts luxury vacations on social media, yet files false affidavits of poverty in Indian family courts.",
+    "respondent_argument": "Wife has not produced certified foreign salary slips and court cannot act on social media photos.",
+    "factors_considered": "Failure to comply with Rajnesh v. Neha affidavit guidelines; lifestyle evidence; Qatar market salary scales for specialized IT personnel; adverse inference under Evidence Act.",
+    "decision": "High Court held that concealment of foreign employment contracts warrants severe adverse inference. The court imputed an income of 15,000 QAR/month and enhanced interim maintenance to Rs 45,000/month."
+  },
+  {
+    "court": "Punjab & Haryana High Court",
+    "case_title": "Amritpal Kaur v. Rajinder Singh Gill",
+    "case_number": "CRR No. 1824 of 2017",
+    "judgment_date": "2018-04-26",
+    "judges": "Jitendra Chauhan, J.",
+    "acts_cited": [
+      "Code of Civil Procedure 1908",
+      "Code of Criminal Procedure 1973",
+      "Hindu Marriage Act 1955"
+    ],
+    "sections_cited": [
+      "Section 13 CPC",
+      "Section 125 CrPC"
+    ],
+    "legal_topics": [
+      "UK Foreign Divorce Decree",
+      "Section 13(d) Natural Justice Violation",
+      "Indian Maintenance Right",
+      "Unilateral Desertion"
+    ],
+    "outcome": "Revision allowed; UK divorce decree held inoperative; Maintenance petition under Section 125 CrPC held fully maintainable.",
+    "fact_petitioner": "Wife married respondent in Jalandhar under Hindu rites; husband went to Birmingham, UK on work visa, never sponsored wife, and secretly obtained decree absolute from English County Court.",
+    "fact_respondent": "Husband argued that English County Court dissolved marriage on ground of irretrievable breakdown with proper service via overseas post, barring Section 125 CrPC claims in India.",
+    "issues": "Does an ex-parte or non-contested divorce decree obtained from an English court against an Indian wife living in Punjab bar her maintenance claim under Section 125 CrPC?",
+    "petitioner_argument": "Wife never submitted to English jurisdiction; ground of irretrievable breakdown is not recognized under HMA 1955; decree violates Section 13(b), 13(c), and 13(d) CPC.",
+    "respondent_argument": "The English decree was granted by a competent foreign court and must be recognized under international comity.",
+    "factors_considered": "Section 13(b) CPC (not on merits); Section 13(c) (refusal to recognize Indian law); Section 13(d) (natural justice violated); Supreme Court principles in Y. Narasimha Rao v. Y. Venkata Lakshmi.",
+    "decision": "Held that the UK divorce decree was a nullity in India because it breached natural justice and applied foreign divorce grounds not recognized under the Hindu Marriage Act. Wife's right to maintenance under Section 125 CrPC remains intact."
+  },
+  {
+    "court": "Punjab & Haryana High Court",
+    "case_title": "Baljinder Singh v. Satinderjit Kaur",
+    "case_number": "FAO No. 248 of 2010",
+    "judgment_date": "2011-09-15",
+    "judges": "M.M. Kumar, Gurdev Singh, JJ.",
+    "acts_cited": [
+      "Code of Civil Procedure 1908",
+      "Hindu Marriage Act 1955"
+    ],
+    "sections_cited": [
+      "Section 13 CPC",
+      "Section 13 HMA"
+    ],
+    "legal_topics": [
+      "Canadian Foreign Divorce",
+      "Lack of Indian Law Recognition",
+      "Section 13(c) CPC Bar",
+      "Ex-Parte NRI Decree"
+    ],
+    "outcome": "Appeal dismissed; Canadian divorce decree declared null and void in India.",
+    "fact_petitioner": "Husband emigrated to Ontario, Canada, obtained citizenship, and obtained a divorce judgment from Ontario Superior Court of Justice under Canadian Divorce Act 1985.",
+    "fact_respondent": "Wife remained in Ludhiana, Punjab; was served with foreign court papers in English with insufficient time to travel to Canada, and could not afford foreign legal representation.",
+    "issues": "Whether a divorce decree granted by a Canadian court under Canadian law can dissolve a marriage solemnized under Hindu Marriage Act between Indian citizens?",
+    "petitioner_argument": "Husband was a permanent resident/citizen of Canada and the Ontario court was competent under Canadian law to dissolve the marriage.",
+    "respondent_argument": "The Canadian court refused to apply the Hindu Marriage Act 1955 which governed the parties; hence barred under Section 13(c) CPC.",
+    "factors_considered": "Section 13(c) CPC: foreign judgment founded on refusal to recognize the law of India; absence of submission to foreign forum; financial inability of Indian wife to defend in Ontario.",
+    "decision": "Ontario divorce decree declared void ab initio in India. Under Section 13(c) CPC, a foreign judgment that ignores the substantive personal law under which parties married cannot be recognized in Indian courts."
+  },
+  {
+    "court": "Calcutta High Court",
+    "case_title": "Amit Jalan & Ors. v. State of West Bengal & Anr.",
+    "case_number": "CRR 111 of 2026 with CRAN 1 of 2026",
+    "judgment_date": "2026-04-10",
+    "judges": "Ajoy Kumar Mukherjee, J.",
+    "acts_cited": [
+      "Code of Criminal Procedure 1973",
+      "Hindu Marriage Act 1955",
+      "Indian Penal Code 1860"
+    ],
+    "sections_cited": [
+      "Section 482 CrPC",
+      "Section 13B HMA",
+      "Section 498A IPC",
+      "Section 25 HMA"
+    ],
+    "legal_topics": [
+      "Comprehensive Alimony Escrow",
+      "Rs 3.5 Crore Settlement",
+      "Mutual Consent Expedited Decree",
+      "Quashing Transnational Matrimonial Litigation"
+    ],
+    "outcome": "Settlement accepted; Demand drafts of Rs 3.5 crores handed over; Criminal proceedings quashed; Mutual divorce confirmed.",
+    "fact_petitioner": "Husband and family members facing Section 498A/406 IPC proceedings and maintenance petitions across multiple courts, with husband residing partly abroad.",
+    "fact_respondent": "Wife and two adult daughters sought permanent financial security, stridhan return, and comprehensive dispute resolution.",
+    "issues": "Can High Court in exercise of Section 482 CrPC powers facilitate expedited mutual consent divorce and quash proceedings upon deposit of massive permanent alimony settlement?",
+    "petitioner_argument": "Parties have agreed upon a full and final settlement of Rs 3.50 crores deposited with Registrar General; litigation should be terminated to permit peaceful separate lives.",
+    "respondent_argument": "Wife agreed that upon realization of full permanent alimony for herself and daughters, all matrimonial claims and criminal charges stand resolved.",
+    "factors_considered": "Supreme Court rulings on amicable resolution of matrimonial disputes (Gian Singh, B.S. Joshi); security of daughters; complete closure of multi-forum litigation.",
+    "decision": "High Court confirmed mutual divorce under Section 13B HMA, ordered release of Rs 3.50 crore bank drafts to wife and daughters, and quashed all criminal complaints and maintenance revisions."
+  },
+  {
+    "court": "Punjab & Haryana High Court",
+    "case_title": "Kulwinder Kumar v. Seema",
+    "case_number": "CRR(F) No. 415 of 2024",
+    "judgment_date": "2025-01-22",
+    "judges": "Nidhi Gupta, J.",
+    "acts_cited": [
+      "Code of Criminal Procedure 1973",
+      "Hindu Marriage Act 1955"
+    ],
+    "sections_cited": [
+      "Section 125 CrPC",
+      "Section 24 HMA"
+    ],
+    "legal_topics": [
+      "NRI Interim Maintenance Floor",
+      "Rs 20,000 Minimum Baseline",
+      "Claimed Unemployment Rejected",
+      "Able-Bodied Husband"
+    ],
+    "outcome": "Revision dismissed; Interim maintenance floor of Rs 20,000 per month affirmed.",
+    "fact_petitioner": "Husband working in Italy filed revision against Family Court order directing interim maintenance of Rs 20,000/pm to wife in Punjab.",
+    "fact_respondent": "Wife established husband was living in Italy on valid work permit; husband alleged he was currently jobless and living on charity of relatives.",
+    "issues": "Can an NRI husband residing in Europe evade interim maintenance by claiming local unemployment and lack of verified income records?",
+    "petitioner_argument": "Petitioner has no job in Italy, economic crisis in Europe, and cannot pay Rs 20,000 monthly from zero earnings.",
+    "respondent_argument": "An NRI who can afford European airfare, visa fees, and overseas living expenses is an able-bodied man capable of maintaining his wife.",
+    "factors_considered": "Precedents on able-bodied spouse; cost of international travel; minimal baseline necessary for wife's sustenance in India; non-submission of Italian tax documents.",
+    "decision": "Affirmed mandatory floor: An NRI husband residing abroad cannot plead penury. A baseline interim floor of Rs 15,000 to Rs 25,000 per month is non-negotiable regardless of unverified unemployment claims."
+  },
+  {
+    "court": "Kerala High Court",
+    "case_title": "Beatrice v. Babu Louis",
+    "case_number": "RPFC No. 312 of 2024",
+    "judgment_date": "2025-02-14",
+    "judges": "P.B. Suresh Kumar, Johnson John, JJ.",
+    "acts_cited": [
+      "Code of Criminal Procedure 1973"
+    ],
+    "sections_cited": [
+      "Section 125 CrPC",
+      "Section 127 CrPC"
+    ],
+    "legal_topics": [
+      "Maintenance Enhancement",
+      "Gulf Salary Scale",
+      "School Fees & Inflation",
+      "Change of Circumstances"
+    ],
+    "outcome": "Revision allowed in part; Maintenance enhanced to Rs 35,000 per month for wife and two minor children.",
+    "fact_petitioner": "Wife filed for enhancement under Section 127 CrPC pointing out that initial award of Rs 8,000 in 2016 was grossly insufficient in 2025 given children's higher education and husband's promotion in Kuwait.",
+    "fact_respondent": "Husband in Kuwait contended his expenses had doubled and he had personal bank commitments in Kuwait.",
+    "issues": "What constitutes a 'change in circumstances' under Section 127 CrPC to justify substantial enhancement of maintenance against Gulf-employed spouse?",
+    "petitioner_argument": "Children have entered secondary school, tuition fees and living costs have multiplied, and husband's Kuwait Dinar salary has appreciated against INR.",
+    "respondent_argument": "Enhancement should be limited to nominal 5-10% inflation adjustment.",
+    "factors_considered": "Section 127 CrPC change of circumstances; appreciation of Kuwaiti Dinar against Rupee; actual educational fee receipts; duty of father to provide education commensurate with his status.",
+    "decision": "High Court enhanced monthly maintenance from Rs 8,000 to Rs 35,000, holding that exchange rate gains and career progression of Gulf-based NRI must directly benefit deserted children."
+  },
+  {
+    "court": "Andhra Pradesh High Court",
+    "case_title": "A. Ashok Vardhan Reddy v. Smt. P. Saritha & Anr.",
+    "case_number": "Criminal Revision Case No. 15 of 2014",
+    "judgment_date": "2014-06-12",
+    "judges": "B. Siva Sankara Rao, J.",
+    "acts_cited": [
+      "Protection of Women from Domestic Violence Act 2005",
+      "Code of Civil Procedure 1908",
+      "Code of Criminal Procedure 1973"
+    ],
+    "sections_cited": [
+      "Section 12 DV Act",
+      "Section 20 DV Act",
+      "Section 23 DV Act",
+      "Section 13 CPC"
+    ],
+    "legal_topics": [
+      "Domestic Violence Act Transnational Reach",
+      "Pending US Divorce Action",
+      "Extraterritorial Abuse",
+      "Interim Relief Maintenance"
+    ],
+    "outcome": "Revision dismissed; DV Act proceedings and maintenance orders in India upheld.",
+    "fact_petitioner": "Husband living in USA challenged maintainability of DV Act case filed in Hyderabad by wife whom he sent back to India while initiating divorce in Texas.",
+    "fact_respondent": "Wife subjected to physical abuse and economic deprivation in USA; forced to return to parental home in Hyderabad without financial support.",
+    "issues": "Can an aggrieved Indian woman invoke the Domestic Violence Act in an Indian court when acts of physical abuse occurred in the United States and foreign divorce is pending?",
+    "petitioner_argument": "Indian courts lack extraterritorial jurisdiction over acts occurring on US soil; Texas court is the primary forum of matrimonial dispute.",
+    "respondent_argument": "Section 27 DV Act provides jurisdiction where the aggrieved person resides; economic abuse continues in India through non-maintenance.",
+    "factors_considered": "Continuing cause of action under Section 3 DV Act (economic abuse); Section 27 territorial jurisdiction; beneficial nature of DV legislation.",
+    "decision": "Held that DV Act is maintainable in India wherever the aggrieved wife resides. Depriving her of maintenance while residing in India constitutes continuing economic abuse, regardless of pending US proceedings."
+  },
+  {
+    "court": "Karnataka High Court",
+    "case_title": "Dr. Hemavathi Shivashankar v. Dr. Tumkur S. Shivashankar",
+    "case_number": "MFA No. 4512 of 2011",
+    "judgment_date": "2012-07-24",
+    "judges": "N. Kumar, H.S. Kempanna, JJ.",
+    "acts_cited": [
+      "Code of Civil Procedure 1908",
+      "Hindu Marriage Act 1955"
+    ],
+    "sections_cited": [
+      "Section 13 CPC",
+      "Section 19 HMA",
+      "Section 25 HMA"
+    ],
+    "legal_topics": [
+      "US Naturalization & Jurisdiction",
+      "Medical Doctor NRI Earnings",
+      "Stridhan and Property Division",
+      "Foreign Decrees Nullity"
+    ],
+    "outcome": "Appeal allowed; US divorce held non-binding; Permanent alimony of Rs 75 lakhs awarded.",
+    "fact_petitioner": "Wife abandoned in Bangalore after 12 years of marriage; husband is a practicing physician in USA earning high professional income.",
+    "fact_respondent": "Doctor husband obtained an ex-parte decree from Ohio county court, claimed US citizenship, and argued Indian courts cannot question his status or assets.",
+    "issues": "Does an Indian doctor's acquisition of US citizenship and foreign divorce decree shield him from permanent alimony claims of his Indian wife under Section 25 HMA?",
+    "petitioner_argument": "Marriage solemnized in Bangalore under HMA cannot be dissolved by Ohio court on 'incompatibility'; wife has no independent practice in India.",
+    "respondent_argument": "Husband is now an American citizen subject only to Ohio laws; Indian courts have no jurisdiction over his US medical practice or assets.",
+    "factors_considered": "Y. Narasimha Rao precedent; Section 13(a) & (c) CPC; substantial lifestyle difference between parties; high earning capacity of medical specialists in USA.",
+    "decision": "Decree of Ohio court declared null and void in India. Supreme Court and High Court jurisprudence prohibits NRI spouses from using foreign citizenship to evade lifelong maintenance. Awarded permanent alimony of Rs 75 lakhs."
+  }
+]

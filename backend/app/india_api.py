@@ -88,3 +88,132 @@ def agent(body: AgentIn):
 def delete_session(session_id: str):
     """Forget a session and everything typed into it."""
     forget(session_id)
+
+
+# ---- NRI Matrimonial & Maintenance Engine Endpoints ----
+import sqlite3, json
+from pathlib import Path
+from .india.nri_engine import NRIFacts, evaluate_nri_case
+
+
+class NRIFactsInput(BaseModel):
+    claimant: Literal["wife", "child", "parent", "husband"] = "wife"
+    marriage_law: Literal["hindu", "muslim", "christian", "parsi", "special_marriage"] = "hindu"
+    spouse_abroad: bool = True
+    spouse_country: Literal["usa", "uae", "uk", "canada", "australia", "qatar", "singapore", "other"] = "uae"
+    stated_monthly_income: Optional[float] = None
+    currency: Optional[str] = None
+    undisclosed_income: bool = False
+    lifestyle_tier: Literal["tech/managerial", "medical/doctor", "executive/business", "entry/clerical", "manual/labour", "unknown"] = "tech/managerial"
+    wife_monthly_income: float = 0.0
+    children_count: int = 0
+    children_education_monthly: float = 0.0
+    foreign_decree_obtained: bool = False
+    decree_submitted_to: bool = False
+    domestic_violence: bool = False
+    abandoned_in_india: bool = True
+    divorce_status: Literal["none", "pending", "decreed"] = "none"
+    past_marital_fault_alleged: bool = False
+
+
+@router.get("/nri/cases")
+def get_nri_cases(query: Optional[str] = None, court: Optional[str] = None):
+    """Query 16-field structured NRI case law database."""
+    db_path = Path(__file__).resolve().parent / "india" / "nri_cases.db"
+    if not db_path.exists():
+        raise HTTPException(404, "NRI cases database not found")
+    conn = sqlite3.connect(db_path)
+    cur = conn.cursor()
+    sql = "SELECT id, court, case_title, case_number, judgment_date, judges, acts_cited, sections_cited, legal_topics, outcome, fact_petitioner, fact_respondent, issues, petitioner_argument, respondent_argument, factors_considered, decision FROM nri_case_law WHERE 1=1"
+    params = []
+    if court:
+        sql += " AND court LIKE ?"
+        params.append(f"%{court}%")
+    if query:
+        sql += " AND (case_title LIKE ? OR legal_topics LIKE ? OR issues LIKE ? OR decision LIKE ?)"
+        params.extend([f"%{query}%", f"%{query}%", f"%{query}%", f"%{query}%"])
+    cur.execute(sql, params)
+    rows = cur.fetchall()
+    conn.close()
+
+    results = []
+    keys = ["id", "Court", "Case Title", "Case Number", "Judgment Date", "Judges", "Acts Cited", "Sections Cited", "Legal Topics", "Outcome", "Fact/Petitioner", "Fact/Respondent", "Issues", "Petitioner Argument", "Respondent Argument", "Factors to be Considered", "Decision"]
+    for row in rows:
+        d = dict(zip(keys, row))
+        try: d["Acts Cited"] = json.loads(d["Acts Cited"])
+        except: pass
+        try: d["Sections Cited"] = json.loads(d["Sections Cited"])
+        except: pass
+        try: d["Legal Topics"] = json.loads(d["Legal Topics"])
+        except: pass
+        results.append(d)
+    return {"total": len(results), "cases": results}
+
+
+@router.post("/nri/evaluate")
+def evaluate_nri_route(body: NRIFactsInput):
+    """Deterministic NRI maintenance & jurisdiction evaluation."""
+    facts = NRIFacts(**body.model_dump())
+    return evaluate_nri_case(facts)
+
+
+class NRIIntakeInput(BaseModel):
+    text: str = Field(max_length=4000)
+    country: Optional[str] = "uae"
+    stated_monthly_income: Optional[float] = None
+    children_count: int = 0
+
+
+@router.post("/nri/intake")
+def nri_intake_route(body: NRIIntakeInput):
+    """Natural language text intake using SLM + lexicon, flowing into deterministic NRI inference."""
+    intake_res = slm.augment(body.text, extract(body.text))
+    facts_dict = intake_res.get("facts", {})
+    tent = intake_res.get("tentative", {})
+
+    text_lower = body.text.lower()
+    detected_country = body.country or "other"
+    if any(k in text_lower for k in ["dubai", "uae", "abu dhabi", "sharjah", "दुबई"]):
+        detected_country = "uae"
+    elif any(k in text_lower for k in ["america", "usa", "california", "texas", "न्यूयॉर्क", "अमेरिका"]):
+        detected_country = "usa"
+    elif any(k in text_lower for k in ["uk", "london", "england", "birmingham", "लंदन"]):
+        detected_country = "uk"
+    elif any(k in text_lower for k in ["canada", "toronto", "ontario", "vancouver", "कनाडा"]):
+        detected_country = "canada"
+    elif any(k in text_lower for k in ["australia", "sydney", "melbourne"]):
+        detected_country = "australia"
+    elif any(k in text_lower for k in ["qatar", "doha", "कतर"]):
+        detected_country = "qatar"
+    elif "singapore" in text_lower:
+        detected_country = "singapore"
+
+    undisclosed = False
+    if any(k in text_lower for k in ["hide", "hides", "conceal", "refuse", "won't show", "chupa", "nahi bata"]):
+        undisclosed = True
+    if "undisclosed_income" in tent:
+        undisclosed = True
+
+    foreign_decree = False
+    if any(k in text_lower for k in ["foreign decree", "foreign court", "ex parte divorce", "divorced abroad", "nevada", "texas court", "विदेश से तलाक"]):
+        foreign_decree = True
+    if "foreign_decree_obtained" in tent:
+        foreign_decree = True
+
+    facts = NRIFacts(
+        spouse_abroad=facts_dict.get("respondent_abroad", True),
+        spouse_country=detected_country,
+        stated_monthly_income=body.stated_monthly_income,
+        undisclosed_income=undisclosed,
+        domestic_violence=facts_dict.get("domestic_violence", False),
+        foreign_decree_obtained=foreign_decree,
+        children_count=body.children_count,
+        divorce_status=facts_dict.get("divorce_status", "none")
+    )
+    eval_result = evaluate_nri_case(facts)
+    return {
+        "extracted_intake": intake_res,
+        "mapped_facts": facts.__dict__,
+        "evaluation": eval_result
+    }
+
