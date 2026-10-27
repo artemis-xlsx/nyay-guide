@@ -105,6 +105,10 @@ class NRIFactsInput(BaseModel):
     currency: Optional[str] = None
     undisclosed_income: bool = False
     lifestyle_tier: Literal["tech/managerial", "medical/doctor", "executive/business", "entry/clerical", "manual/labour", "unknown"] = "tech/managerial"
+    custom_imputed_salary: Optional[float] = None
+    foreign_living_cost_deduction_pct: Optional[float] = None
+    spousal_maintenance_pct: float = 0.25
+    child_maintenance_pct_per_child: float = 0.10
     wife_monthly_income: float = 0.0
     children_count: int = 0
     children_education_monthly: float = 0.0
@@ -114,30 +118,46 @@ class NRIFactsInput(BaseModel):
     abandoned_in_india: bool = True
     divorce_status: Literal["none", "pending", "decreed"] = "none"
     past_marital_fault_alleged: bool = False
+    case_filing_date_post_july_2024: bool = True
 
 
 @router.get("/nri/cases")
 def get_nri_cases(query: Optional[str] = None, court: Optional[str] = None):
-    """Query 16-field structured NRI case law database."""
+    """Query structured NRI case law database with 16 core fields + verification/audit metadata."""
     db_path = Path(__file__).resolve().parent / "india" / "nri_cases.db"
     if not db_path.exists():
         raise HTTPException(404, "NRI cases database not found")
     conn = sqlite3.connect(db_path)
     cur = conn.cursor()
-    sql = "SELECT id, court, case_title, case_number, judgment_date, judges, acts_cited, sections_cited, legal_topics, outcome, fact_petitioner, fact_respondent, issues, petitioner_argument, respondent_argument, factors_considered, decision FROM nri_case_law WHERE 1=1"
+    sql = """
+    SELECT id, court, case_title, case_number, judgment_date, judges,
+           acts_cited, sections_cited, legal_topics, outcome,
+           fact_petitioner, fact_respondent, issues, petitioner_argument,
+           respondent_argument, factors_considered, decision,
+           verification_status, exact_holding, negative_limitations,
+           calculator_dependency, primary_source_link, reviewed_by_and_date
+    FROM nri_case_law WHERE 1=1
+    """
     params = []
     if court:
         sql += " AND court LIKE ?"
         params.append(f"%{court}%")
     if query:
-        sql += " AND (case_title LIKE ? OR legal_topics LIKE ? OR issues LIKE ? OR decision LIKE ?)"
-        params.extend([f"%{query}%", f"%{query}%", f"%{query}%", f"%{query}%"])
+        sql += " AND (case_title LIKE ? OR legal_topics LIKE ? OR issues LIKE ? OR decision LIKE ? OR exact_holding LIKE ?)"
+        params.extend([f"%{query}%", f"%{query}%", f"%{query}%", f"%{query}%", f"%{query}%"])
     cur.execute(sql, params)
     rows = cur.fetchall()
     conn.close()
 
     results = []
-    keys = ["id", "Court", "Case Title", "Case Number", "Judgment Date", "Judges", "Acts Cited", "Sections Cited", "Legal Topics", "Outcome", "Fact/Petitioner", "Fact/Respondent", "Issues", "Petitioner Argument", "Respondent Argument", "Factors to be Considered", "Decision"]
+    keys = [
+        "id", "Court", "Case Title", "Case Number", "Judgment Date", "Judges",
+        "Acts Cited", "Sections Cited", "Legal Topics", "Outcome",
+        "Fact/Petitioner", "Fact/Respondent", "Issues", "Petitioner Argument",
+        "Respondent Argument", "Factors to be Considered", "Decision",
+        "Verification Status", "Exact Holding", "Negative Limitations",
+        "Calculator Dependency", "Primary Source Link", "Reviewed By & Date"
+    ]
     for row in rows:
         d = dict(zip(keys, row))
         try: d["Acts Cited"] = json.loads(d["Acts Cited"])
