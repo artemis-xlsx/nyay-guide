@@ -90,6 +90,67 @@ For all fresh matrimonial or maintenance proceedings instituted on or after **1 
   - The "able-bodied husband doctrine" ensures that an able-bodied spouse capable of earning cannot leave the other spouse destitute. The interim maintenance amount is calibrated to ensure basic dignity and survival during trial.
   - In Nyay Guide, any interim sustenance floor is treated as an **optional illustrative scenario**, not a guaranteed statutory entitlement.
 
+### 5. Step-by-Step Anatomy of a Calculation (How Decisions Are Derived)
+
+To help advocates and litigants verify every rupee and legal rationale, the engine structures every evaluation into a transparent **7-step mathematical and legal progression**. 
+
+Here is how a real-world scenario is adjudicated by the engine:
+
+#### Example Case Scenario:
+- **Claimant**: Deserted wife in Delhi with 1 minor child (age 6, documented school tuition ₹20,000/month).
+- **Respondent**: Tech Lead in California, USA.
+- **Gross Monthly Income**: Disclosed at $12,000 / month (or imputed under adverse inference if concealed).
+- **Procedural Date**: Application filed on 15 August 2024 (governed by BNSS 2023 & BSA 2023).
+- **Foreign Decree**: Ex-parte Nevada divorce obtained by husband without wife's submission.
+
+```
+Step 1: Gross Foreign Income Determination
+├── Source: Disclosed on record (Form 1040/W-2) or Imputed under Adverse Inference
+├── Gross Monthly Foreign Amount: $12,000.00 USD
+└── Governing Evidence Statute: Section 109 & 119(g) BSA / Baiju v. Hema
+
+Step 2: Host-Country Living Cost & Tax Deductions
+├── Gross Salary: $12,000.00 USD
+├── Deduction Pct: 40.0% (US Federal/State taxes, FICA, healthcare, apartment rent)
+├── Host-Country Expense Deduction: $12,000 × 40% = $4,800.00 USD
+└── Net Disposable Foreign Surplus: $12,000 - $4,800 = $7,200.00 USD
+    (Grounding: Devika Jain v. Rajesh Jain; Shikha v. Avaneesh)
+
+Step 3: Spot Currency Conversion to Indian Rupees (INR)
+├── Net Foreign Surplus: $7,200.00 USD
+├── Calibrated Exchange Rate: 1 USD = ₹86.50 INR
+└── Net Monthly Disposable Surplus in INR: $7,200 × ₹86.50 = ₹6,22,800.00 / month
+
+Step 4: Base Spousal Maintenance Computation
+├── Net Disposable Pool: ₹6,22,800.00 / month
+├── Benchmark Spousal Proportion: 25.0%
+└── Base Spousal Maintenance: ₹6,22,800 × 25% = ₹1,55,700.00 / month
+    (Grounding: Kalyan Dey Chowdhury v. Rita Dey Chowdhury; Dr. Kulbhushan Kumar)
+
+Step 5: Child Support & Schooling Contribution
+├── Dependent Children Count: 1
+├── Child Support Base: ₹6,22,800 × 10% = ₹62,280.00 / month
+├── Documented School Tuition Contribution: 70% of ₹20,000 = ₹14,000.00 / month
+└── Total Child Support Quantum: ₹62,280 + ₹14,000 = ₹76,280.00 / month
+    (Grounding: Rajnesh v. Neha; Aditi alias Mithi v. Jitesh Sharma)
+
+Step 6: Adjustment for Wife's Independent Income & Final Monthly Award
+├── Base Spousal Maintenance: ₹1,55,700.00
+├── Child Support: ₹76,280.00
+├── Total Combined Monthly Award: ₹1,55,700 + ₹76,280 = ₹2,31,980.00 / month
+└── Interim Floor Status: Not triggered (Award exceeds baseline sustenance floor)
+    (Grounding: Manish Jain v. Akanksha Jain; Kulwinder Kumar v. Seema)
+
+Step 7: Private International Law & Cross-Border Enforcement Routing
+├── Foreign Decree Status: NULL AND VOID ab initio in India (Section 13(b),(c),(d),(e) CPC)
+├── Substantive Maintenance Code: Section 144 BNSS (Fresh post-July 2024 filing)
+├── Section 44A CPC Direct Execution: BARRED (USA is non-reciprocating territory)
+└── Recommended Enforcement Actions:
+    1. Domestic execution against husband's properties in India (Section 147 BNSS)
+    2. Requisition to Regional Passport Officer to impound passport (Section 10(3)(h) Passports Act / Suresh Nanda)
+    3. Look Out Circular (LOC) via Bureau of Immigration to detain spouse at Indian airports (MHA 2021 Guidelines)
+```
+
 ---
 
 ## 4. Private International Law: Foreign Divorce Recognition Under Section 13 CPC

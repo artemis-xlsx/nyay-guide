@@ -352,6 +352,100 @@ def evaluate_nri_case(facts: NRIFacts) -> Dict[str, Any]:
         "guidance": "Extradition treaties only cover dual-criminality penal offenses carrying severe imprisonment (e.g. IPC 498A/304B). Pure Section 125 CrPC / Section 144 BNSS default does NOT qualify for international extradition."
     }
 
+    # 7. Step-by-Step Calculation Breakdown for Transparent Legal Audit
+    calculation_breakdown = [
+        {
+            "step_number": 1,
+            "step_name": "Gross Foreign Income Determination",
+            "formula": "Disclosed Gross Salary OR Imputed Salary via Adverse Inference",
+            "inputs": {
+                "source": "Disclosed on Record" if not adverse_inference_applied else "Adverse Inference (Concealed Income)",
+                "gross_monthly_amount": f"{gross_foreign_salary:,.2f} {curr}",
+                "governing_evidence_statute": evidence_statute
+            },
+            "legal_grounding": "Baiju v. Hema (2020 SCC OnLine Ker 12784) / Section 109 & 119(g) BSA",
+            "notes": "The NRI spouse bears the burden of disclosing foreign tax filings and bank accounts. Willful concealment triggers adverse inference based on qualifications, lifestyle, and foreign salary benchmarks."
+        },
+        {
+            "step_number": 2,
+            "step_name": "Host-Country Taxes & Living Expense Deductions",
+            "formula": "Net Disposable Foreign Surplus = Gross Salary × (1 - Deduction Percentage)",
+            "inputs": {
+                "gross_foreign_salary": f"{gross_foreign_salary:,.2f} {curr}",
+                "deduction_percentage": f"{deduction_pct * 100:.1f}%",
+                "deducted_amount": f"{gross_foreign_salary * deduction_pct:,.2f} {curr}",
+                "net_foreign_disposable_surplus": f"{net_foreign_disposable:,.2f} {curr}",
+                "deduction_methodology": deduction_note
+            },
+            "legal_grounding": "Devika Jain v. Rajesh Jain (2015 SCC OnLine Del 13245) & Shikha v. Avaneesh (2024 SCC OnLine MP 5791)",
+            "notes": "Courts factor in purchasing power parity, mandatory foreign income taxes, and unavoidable living expenses rather than spot-converting gross foreign income."
+        },
+        {
+            "step_number": 3,
+            "step_name": "Currency Conversion to Indian Rupees (INR)",
+            "formula": "Net Disposable INR = Net Foreign Disposable Surplus × Exchange Rate",
+            "inputs": {
+                "net_foreign_disposable_surplus": f"{net_foreign_disposable:,.2f} {curr}",
+                "calibrated_exchange_rate": f"1 {curr} = ₹{rate:.2f} INR",
+                "net_disposable_inr_monthly": f"₹{round(net_disposable_inr):,}"
+            },
+            "legal_grounding": "Standard exchange rate parity at the time of adjudication",
+            "notes": "Represents the realistic net monthly pool of funds available to the overseas spouse after host-country survival expenditures."
+        },
+        {
+            "step_number": 4,
+            "step_name": "Base Spousal Maintenance Assessment",
+            "formula": "Base Spousal Maintenance = Net Disposable INR × Spousal Benchmark Percentage",
+            "inputs": {
+                "net_disposable_inr_monthly": f"₹{round(net_disposable_inr):,}",
+                "spousal_percentage_applied": f"{spousal_pct * 100:.1f}%",
+                "base_spousal_quantum_inr": f"₹{round(base_spousal_quantum):,} / month"
+            },
+            "legal_grounding": "Kalyan Dey Chowdhury v. Rita Dey Chowdhury (2017) 14 SCC 200 citing Dr. Kulbhushan Kumar (1970) 3 SCC 129",
+            "notes": "25% of net disposable income serves as an indicative judicial benchmark, subject to variation based on living standard, health, and individual needs."
+        },
+        {
+            "step_number": 5,
+            "step_name": "Child Support & Educational Allowance",
+            "formula": "Child Support = (Net Disposable INR × Child Pct × Child Count) + (70% of Documented School Fees)",
+            "inputs": {
+                "dependent_children_count": facts.children_count,
+                "child_rate_per_child": f"{facts.child_maintenance_pct_per_child * 100:.1f}%",
+                "education_contribution_inr": f"₹{round(facts.children_education_monthly * 0.70):,}",
+                "total_child_support_inr": f"₹{round(child_quantum):,} / month"
+            },
+            "legal_grounding": "Rajnesh v. Neha (2021) 2 SCC 324 & Aditi v. Jitesh Sharma (2023 SCC OnLine SC 1451)",
+            "notes": "Child maintenance is an independent right assessed separately from spousal support to cover food, housing, and schooling."
+        },
+        {
+            "step_number": 6,
+            "step_name": "Wife's Independent Income Adjustment & Final Quantum",
+            "formula": "Total Recommended Award = Max(Base Spousal + Child Support - Wife Income Adjustment, Sustenance Floor)",
+            "inputs": {
+                "base_spousal_inr": f"₹{round(base_spousal_quantum):,}",
+                "child_support_inr": f"₹{round(child_quantum):,}",
+                "wife_monthly_income_offset": f"₹{round(facts.wife_monthly_income):,}",
+                "interim_floor_triggered": interim_floor_triggered,
+                "total_recommended_maintenance_inr": f"₹{round(total_calculated):,} / month"
+            },
+            "legal_grounding": "Manish Jain v. Akanksha Jain (2017) 15 SCC 801 & Kulwinder Kumar v. Seema (2017 SCC OnLine P&H 5218)",
+            "notes": "Wife's independent earnings are factored into quantum, but do not disentitle her from maintenance commensurate with husband's status."
+        },
+        {
+            "step_number": 7,
+            "step_name": "Enforcement Routing & Private International Law",
+            "formula": "Governing Statute + Section 13 CPC Check + Section 44A Execution Roadmap",
+            "inputs": {
+                "substantive_maintenance_code": maint_statute,
+                "foreign_decree_validity": decree_analysis["status_in_india"],
+                "section_44a_reciprocity_status": enforcement_routes["section_44a_cpc"]["status"],
+                "coercive_domestic_remedies": "Passport Impoundment (S. 10(3)(h) Passports Act via RPO) + Airport LOC (MHA 2021 Guidelines)"
+            },
+            "legal_grounding": "Section 144 BNSS / Section 125 CrPC; Section 13 & 44A CPC; Suresh Nanda v. CBI (2008) 3 SCC 674",
+            "notes": "In non-reciprocating jurisdictions (USA/Canada/Australia), Section 44A direct execution is barred. Enforcement proceeds via Indian property attachment, passport impoundment, and immigration LOCs."
+        }
+    ]
+
     return {
         "status": "success",
         "procedural_framework": {
@@ -382,6 +476,7 @@ def evaluate_nri_case(facts: NRIFacts) -> Dict[str, Any]:
             "total_recommended_maintenance_inr": round(total_calculated),
             "interim_floor_enforced": interim_floor_triggered
         },
+        "step_by_step_calculation_breakdown": calculation_breakdown,
         "cross_border_enforcement_roadmap": enforcement_routes,
         "authorities_and_holdings": authorities,
         "audit_logs": logs
