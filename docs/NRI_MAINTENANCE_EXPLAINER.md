@@ -3,6 +3,32 @@
 
 ---
 
+## 0. A Lawyer's Quick Guide to GitHub & Hugging Face (Please Don't Panic!)
+
+If you are an advocate, legal researcher, or judicial clerk, the words "GitHub", "Hugging Face", "Repository", and "Parquet" can sound like confusing developer jargon. **Take a breath: nothing is complicated, and you cannot break anything.**
+
+Here is what these platforms actually mean in legal terms:
+
+### 1. What is GitHub? (Think of it as the *Digital Court Registry / Case File*)
+* **The Analogy:** In litigation, a court record holds every petition, written statement, order sheet, and exhibit. If an advocate files an amended petition on day 40, the original petition on day 1 is never destroyed—the court file keeps a chronological, tamper-proof record of every revision.
+* **That is all GitHub is:** A secure, cloud-hosted court registry for the project. Every statutory formula, calculation rule, and legal document is kept here. Every time an update is made, it creates a timestamped record (called a **"Commit"**).
+* **How to navigate it:**
+  * Open the GitHub link: [https://github.com/artemis-xlsx/nyay-guide](https://github.com/artemis-xlsx/nyay-guide)
+  * Click on folders like `docs/` or `backend/app/india/` to view files.
+  * Click on any `.md` or `.py` file to read it.
+  * **Important reassurance:** Browsing or clicking on GitHub is **100% read-only**. You cannot accidentally delete files, corrupt the database, or ruin the system. Feel free to explore.
+
+### 2. What is Hugging Face? (Think of it as your *Specialized Law Library / SCC Online for Data*)
+* **The Analogy:** Just like you search SCC Online, Manupatra, or Indian Kanoon for reported judgments, **Hugging Face** is the world's standard repository for structured datasets and AI models.
+* Here sits the entire repository of **50+ NRI matrimonial judgments**, cataloged across your **16 canonical fields** (`Court`, `Acts Cited`, `Issues`, `Petitioner Argument`, `Decision`, etc.), along with 220 multilingual sentence exemplars in English, Hindi, and Tamil.
+* **How to navigate it (The 1-Click Excel View):**
+  * Open the Hugging Face dataset: [https://huggingface.co/datasets/artemis-xlsx/nyay-guide](https://huggingface.co/datasets/artemis-xlsx/nyay-guide)
+  * Click on **`nri_case_law_16_fields.csv`**.
+  * Hugging Face immediately displays an interactive, scrollable spreadsheet directly inside your web browser.
+  * Want it in Excel? Click the **"Download"** button on the top right, and it will open in Microsoft Excel or Google Sheets just like any spreadsheet.
+
+---
+
 ## 1. What Is This Engine & Why Does It Exist?
 
 When an Indian citizen marries an NRI (Non-Resident Indian) or someone who moves abroad (USA, UAE, UK, Canada, Australia, etc.), and the marriage breaks down, Indian family courts face a unique dilemma:
