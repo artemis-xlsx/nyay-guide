@@ -63,6 +63,87 @@ function Understood({ t, lang, turn, onSend, busy }) {
       </li>))}</ul></section>);
 }
 
+function LogicTransparencyCard({ lang }) {
+  return (
+    <details className="card logic-card" style={{ marginTop: "1.5rem", border: "1px solid rgba(212, 175, 55, 0.5)", background: "rgba(17, 24, 39, 0.85)" }}>
+      <summary style={{ cursor: "pointer", padding: "1.2rem 1.5rem" }}>
+        <span className="num" style={{ color: "#D4AF37", fontSize: "2rem" }}>⚖️</span>
+        <span className="sec" style={{ color: "#D4AF37" }}>DECISION TRANSPARENCY & AUDIT TRAIL</span>
+        <h4 style={{ color: "#F3F4F6" }}>How Decisions & Quantum Are Calculated</h4>
+        <span className="forum" style={{ color: "#9CA3AF" }}>7-step mathematical derivation, statutory transitions, and verified case precedents</span>
+        <span className="foot">
+          <span className="status eligible" style={{ background: "rgba(212, 175, 55, 0.15)", color: "#D4AF37", border: "1px solid rgba(212, 175, 55, 0.3)" }}>
+            Click to Expand / Collapse Logic
+          </span>
+        </span>
+      </summary>
+      <div className="body" style={{ paddingTop: "1rem", color: "#D1D5DB" }}>
+        <div style={{ background: "rgba(212, 175, 55, 0.08)", padding: "0.9rem 1.1rem", borderRadius: "8px", marginBottom: "1.2rem", borderLeft: "4px solid #D4AF37" }}>
+          <b style={{ color: "#FBBF24" }}>Practitioner Notice & Legal Context:</b>
+          <p style={{ margin: "0.3rem 0 0", fontSize: "0.85rem", color: "#D1D5DB", lineHeight: "1.5" }}>
+            Under Indian family law, maintenance under Section 125 CrPC / Section 144 BNSS, Section 24 HMA, and Section 20 DV Act represents an exercise of judicial discretion grounded in equity and living standards. The formulas below illustrate the deterministic scenario model grounded in published judgments, not rigid statutory mandates.
+          </p>
+        </div>
+
+        <h5 style={{ color: "#93C5FD", marginBottom: "0.6rem", fontSize: "0.95rem", textTransform: "uppercase", letterSpacing: "0.05em" }}>The 7-Step Deterministic Calculation Flow</h5>
+        <div style={{ display: "grid", gap: "0.75rem", fontSize: "0.86rem" }}>
+          <div style={{ background: "rgba(0,0,0,0.3)", padding: "0.75rem 0.9rem", borderRadius: "6px", border: "1px solid var(--line)" }}>
+            <b style={{ color: "#60A5FA" }}>Step 1: Gross Foreign Income Determination</b>
+            <p style={{ margin: "0.2rem 0", color: "#E5E7EB" }}>• <b>Rule:</b> Disclosed Foreign Salary (Form 1040/W-2/P60) OR Imputed Salary via Adverse Inference.</p>
+            <p style={{ margin: "0.2rem 0", color: "#9CA3AF" }}>• <b>Grounding:</b> <i>Baiju v. Hema</i> (2020 SCC OnLine Ker 12784) & Section 109 / 119(g) BSA. The NRI spouse bears the burden of disclosing overseas tax filings; willful concealment triggers realistic market estimation.</p>
+          </div>
+
+          <div style={{ background: "rgba(0,0,0,0.3)", padding: "0.75rem 0.9rem", borderRadius: "6px", border: "1px solid var(--line)" }}>
+            <b style={{ color: "#60A5FA" }}>Step 2: Host-Country Living Cost & Tax Deduction (Configurable)</b>
+            <p style={{ margin: "0.2rem 0", color: "#E5E7EB" }}>• <b>Rule:</b> Net Disposable Foreign Surplus = Gross Foreign Salary × (1 - Deduction %)</p>
+            <p style={{ margin: "0.2rem 0", color: "#9CA3AF" }}>• <b>Grounding:</b> <i>Devika Jain v. Rajesh Jain</i> (2015 SCC OnLine Del 13245) & <i>Shikha v. Avaneesh</i> (2024 SCC OnLine MP 5791). Spot conversion at forex rates without deducting local taxes and host-country survival expenditures is barred.</p>
+          </div>
+
+          <div style={{ background: "rgba(0,0,0,0.3)", padding: "0.75rem 0.9rem", borderRadius: "6px", border: "1px solid var(--line)" }}>
+            <b style={{ color: "#60A5FA" }}>Step 3: Spot Currency Conversion to Indian Rupees (INR)</b>
+            <p style={{ margin: "0.2rem 0", color: "#E5E7EB" }}>• <b>Rule:</b> Net Disposable INR = Net Foreign Surplus × Calibrated Forex Rate (e.g. 1 USD = ₹86.50, 1 AED = ₹23.50)</p>
+            <p style={{ margin: "0.2rem 0", color: "#9CA3AF" }}>• Establishes the real monthly surplus available to the overseas spouse after host-country survival expenditures.</p>
+          </div>
+
+          <div style={{ background: "rgba(0,0,0,0.3)", padding: "0.75rem 0.9rem", borderRadius: "6px", border: "1px solid var(--line)" }}>
+            <b style={{ color: "#60A5FA" }}>Step 4: Base Spousal Maintenance Assessment</b>
+            <p style={{ margin: "0.2rem 0", color: "#E5E7EB" }}>• <b>Rule:</b> Base Spousal Quantum = Net Disposable INR × 25% (Configurable Benchmark)</p>
+            <p style={{ margin: "0.2rem 0", color: "#9CA3AF" }}>• <b>Grounding:</b> <i>Kalyan Dey Chowdhury v. Rita Dey Chowdhury</i> ((2017) 14 SCC 200) citing <i>Dr. Kulbhushan Kumar</i> ((1970) 3 SCC 129). 25% net surplus serves as an indicative judicial benchmark, subject to trial court discretion.</p>
+          </div>
+
+          <div style={{ background: "rgba(0,0,0,0.3)", padding: "0.75rem 0.9rem", borderRadius: "6px", border: "1px solid var(--line)" }}>
+            <b style={{ color: "#60A5FA" }}>Step 5: Child Support & Educational Allowance</b>
+            <p style={{ margin: "0.2rem 0", color: "#E5E7EB" }}>• <b>Rule:</b> Child Support = (Net Disposable INR × 10% × Child Count) + (70% Documented School Tuition)</p>
+            <p style={{ margin: "0.2rem 0", color: "#9CA3AF" }}>• <b>Grounding:</b> <i>Rajnesh v. Neha</i> ((2021) 2 SCC 324) & <i>Aditi v. Jitesh Sharma</i> (2023 SCC OnLine SC 1451). Child support is an independent right assessed separately from spousal maintenance.</p>
+          </div>
+
+          <div style={{ background: "rgba(0,0,0,0.3)", padding: "0.75rem 0.9rem", borderRadius: "6px", border: "1px solid var(--line)" }}>
+            <b style={{ color: "#60A5FA" }}>Step 6: Offsetting Independent Income & Sustenance Floor</b>
+            <p style={{ margin: "0.2rem 0", color: "#E5E7EB" }}>• <b>Rule:</b> Total Award = Max(Base Spousal + Child Support - Wife Income Adjustment, Sustenance Floor)</p>
+            <p style={{ margin: "0.2rem 0", color: "#9CA3AF" }}>• <b>Grounding:</b> <i>Manish Jain v. Akanksha Jain</i> ((2017) 15 SCC 801). Wife's qualifications do not disentitle her from maintenance matching the husband's status. Able-bodied husband doctrine applies (<i>Kulwinder Kumar v. Seema</i>).</p>
+          </div>
+
+          <div style={{ background: "rgba(0,0,0,0.3)", padding: "0.75rem 0.9rem", borderRadius: "6px", border: "1px solid var(--line)" }}>
+            <b style={{ color: "#60A5FA" }}>Step 7: Private International Law & Enforcement Routing</b>
+            <p style={{ margin: "0.2rem 0", color: "#E5E7EB" }}>• <b>Foreign Divorce Defense:</b> Unilateral ex-parte foreign divorce is <b>VOID ab initio</b> under Section 13(a)-(f) CPC (<i>Satya v. Teja Singh</i>; <i>Y. Narasimha Rao</i>).</p>
+            <p style={{ margin: "0.2rem 0", color: "#E5E7EB" }}>• <b>Section 44A CPC Execution:</b> Reciprocating territories (UK, UAE S.O. 261(E), Singapore) permit direct execution; Non-reciprocating territories (USA, Canada, Australia) <b>bar</b> direct execution, requiring domestic property attachment, passport impoundment (<b>Passports Act Section 10(3)(h)</b> / <i>Suresh Nanda</i>), and airport LOCs.</p>
+          </div>
+        </div>
+
+        <div style={{ marginTop: "1.2rem", paddingTop: "0.8rem", borderTop: "1px solid var(--line)", display: "flex", flexWrap: "wrap", gap: "1rem" }}>
+          <a href="https://huggingface.co/datasets/artemis-xlsx/nyay-guide/blob/main/nri_case_law_16_fields.xlsx" target="_blank" rel="noreferrer" style={{ fontSize: "0.85rem", color: "#60A5FA", fontWeight: 600 }}>
+            📥 Download 145-Case Database in Excel (.xlsx)
+          </a>
+          <span style={{ color: "var(--mute)" }}>•</span>
+          <a href="https://github.com/artemis-xlsx/nyay-guide/blob/main/docs/NRI_MAINTENANCE_EXPLAINER.md" target="_blank" rel="noreferrer" style={{ fontSize: "0.85rem", color: "#60A5FA", fontWeight: 600 }}>
+            📖 Read Comprehensive Legal Explainer
+          </a>
+        </div>
+      </div>
+    </details>
+  );
+}
+
 function Workspace({ t, x, e, lang, turn, onSend, busy, places, setPlaces, onExample }) {
   const hasPlaces = Object.values(places || {}).some((v) => v && String(v).trim());
   const f = (turn && turn.facts) || {};
@@ -115,6 +196,7 @@ function Workspace({ t, x, e, lang, turn, onSend, busy, places, setPlaces, onExa
             </details>))}
         </div>
         {A.warnings.map((w, i) => <p className="warn" key={i}>{w}</p>)}
+        <LogicTransparencyCard lang={lang} />
         {turn.plan && turn.plan.length > 0 && <>
           <h3>{e.seq}</h3>
           <ol className="line">{turn.plan.map((p) => <li key={p.id}><b>{p.title}</b><span>{t.docs}: {p.docs.slice(0, 3).join("; ")}{p.docs.length > 3 ? ` (+${p.docs.length - 3})` : ""}</span></li>)}</ol></>}
@@ -219,7 +301,18 @@ export default function App() {
               {!["law", "claimant", "needs"].includes(q.slot) && <button className="skip" disabled={busy} onClick={() => send({ answer: { slot: "skip", value: null } }, t.skipq)}>{t.skipq}</button>}
             </div>}
             {busy && <div className="msg agent dots" aria-label={x.thinking}><i /><i /><i /></div>}
-            {turn && turn.state === "advice" && <button className="primary see" onClick={() => setView("case")}>{e.ws}</button>}
+            {turn && turn.state === "advice" && (
+              <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap", marginTop: "0.75rem" }}>
+                <button className="primary see" onClick={() => setView("case")}>{e.ws}</button>
+                <button className="ghost see" style={{ border: "1px solid rgba(212, 175, 55, 0.5)", color: "#D4AF37" }} onClick={() => {
+                  setView("case");
+                  setTimeout(() => {
+                    const el = document.querySelector(".logic-card");
+                    if (el) { el.open = true; el.scrollIntoView({ behavior: "smooth" }); }
+                  }, 80);
+                }}>⚖️ Decision Logic & Calculations</button>
+              </div>
+            )}
             {err && <p className="err" role="alert">{err}</p>}
             <div ref={end} />
           </div>
